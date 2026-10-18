@@ -1,0 +1,20 @@
+\begin{tabular}{llrrrr}
+\toprule
+Model (seeds) & Gate & Coverage & Delivered acc.\ [95\% CI] & Err.\ delivered & Correct withheld \\
+\midrule
+Qwen2.5-1.5B$^\dagger$ (3) & none & 100.0 & 55.9 [51.4, 60.8] & 44.1 & 0.0 \\
+ & v0 (prototype) & 73.2 & 62.9 [58.6, 66.9] & 27.2 & 9.9 \\
+ & v1s & 75.1 & 72.7 [68.1, 77.1] & 20.5 & 1.4 \\
+ & v2 (question-aware) & 54.5 & 99.4 [98.7, 100.0] & 0.3 & 1.8 \\
+\midrule
+Llama-3.2-1B (3) & none & 100.0 & 38.5 [35.9, 41.3] & 61.5 & 0.0 \\
+ & v0 (prototype) & 82.1 & 43.8 [41.1, 47.2] & 45.8 & 2.3 \\
+ & v1s & 38.9 & 65.0 [62.5, 70.7] & 12.9 & 12.6 \\
+ & v2 (question-aware) & 24.5 & 98.5 [97.0, 100.0] & 0.3 & 14.4 \\
+\midrule
+Qwen2.5-7B (1) & none & 100.0 & 92.5 [89.4, 95.3] & 7.5 & 0.0 \\
+ & v0 (prototype) & 87.2 & 92.1 [89.2, 95.0] & 6.9 & 12.2 \\
+ & v1s & 96.6 & 94.5 [92.2, 96.8] & 5.3 & 1.2 \\
+ & v2 (question-aware) & 89.1 & 100.0 [100.0, 100.0] & 0.0 & 3.4 \\
+\bottomrule
+\end{tabular}

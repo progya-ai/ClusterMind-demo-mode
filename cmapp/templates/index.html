@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ClusterMind: GPU Cluster Intelligence</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+</head>
+<body>
+<header class="top">
+  <div class="brand">Cluster<span>Mind</span><small>GPU cluster intelligence: checked answers, guarded actions</small></div>
+  <div class="spacer"></div>
+  <span class="pill" id="pill-trace"><span class="dot"></span>trace</span>
+  <span class="pill" id="pill-models"><span class="dot"></span>models</span>
+  <span class="pill" id="pill-jobs"><span class="dot"></span>0 running</span>
+</header>
+
+<div class="demo-banner" id="demo-banner" hidden>
+  <b>Public demo.</b> Real Alibaba GPU cluster data, recorded. Here the AI model is replaced by a simple keyword parser, so the Ask tab is off. The answer checker and the safety guard are the real code. Run ClusterMind locally for the full app with local AI models.
+</div>
+
+<main class="layout">
+<!-- ================= GUI (left) ================= -->
+<section class="gui" aria-label="Controls">
+  <div class="context">
+    <div class="field"><label for="ctx-snapshot">Snapshot</label><select id="ctx-snapshot"></select></div>
+    <div class="field"><label for="ctx-model">Model</label>
+      <select id="ctx-model">{% for m in models %}<option value="{{ m }}">{{ m }}</option>{% endfor %}</select></div>
+    <div class="field"><label for="ctx-seed">Seed</label><input id="ctx-seed" type="number" min="0" value="0"></div>
+    <div class="hint" id="ctx-info"></div>
+  </div>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab" role="tab" data-view="dashboard" aria-selected="true">Dashboard</button>
+    <button class="tab" role="tab" data-view="ask">Ask</button>
+    <button class="tab" role="tab" data-view="check">Check answers</button>
+    <button class="tab" role="tab" data-view="act">Guarded action</button>
+    <button class="tab" role="tab" data-view="runs">Recorded runs</button>
+    <button class="tab" role="tab" data-view="tasks">Tasks</button>
+    <button class="tab" role="tab" data-view="files">Files</button>
+    <button class="tab" role="tab" data-view="audit">Audit log</button>
+  </nav>
+
+  <!-- Dashboard -->
+  <div class="view" id="view-dashboard">
+    <div class="card">
+      <h2>System</h2>
+      <div class="stats" id="stats"></div>
+    </div>
+    <div class="card">
+      <h2>How much does the checker help?</h2>
+      <p class="hint">Each small AI model answered 320 test questions. <b>Raw accuracy</b> is how often it is right on its own. With the checker on, only answers that pass are delivered: <b>answers delivered</b> is how many get through, and <b>delivered accuracy</b> is how many of those are correct. (Source: results/e2_endtoend.json)</p>
+      <div class="tablewrap"><table id="headline"></table></div>
+    </div>
+    <div class="card">
+      <h2>Cluster snapshot <span id="snap-title"></span></h2>
+      <p class="hint" id="snap-hint">Real node records from the Alibaba PAI trace. Green = busy, yellow = idle, red = recent failures. GPU util is relative to one GPU, so 200% means about two GPUs’ worth of work. Click a node to ask about it.</p>
+      <div class="node-grid" id="node-cards"></div>
+      <details><summary>Table view</summary><div class="tablewrap"><table id="nodes"></table></div></details>
+      <details><summary>Raw evidence given to the AI model and the checker</summary><pre class="evidence" id="snap-evidence"></pre></details>
+    </div>
+  </div>
+
+  <!-- Ask -->
+  <div class="view" id="view-ask" hidden>
+    <div class="card">
+      <h2>Ask about the snapshot</h2>
+      <p class="hint">The local model answers from the frozen evidence E; the rule-based checker v2 decides whether the answer is delivered.</p>
+      <form id="form-ask" novalidate>
+        <div class="row">
+          <div class="field grow"><label for="ask-q">Question</label>
+            <input id="ask-q" type="text" maxlength="500" list="ask-samples" placeholder="e.g. Which nodes are idle?" required>
+            <datalist id="ask-samples"></datalist></div>
+        </div>
+        <div class="row">
+          <div class="field"><label for="ask-retrieval">Evidence</label>
+            <select id="ask-retrieval">{% for r in retrievals %}<option value="{{ r }}">{{ r }}{% if r == 'tfidf' %} (top-3, prototype){% endif %}</option>{% endfor %}</select></div>
+          <div class="field"><label for="ask-style">Prompt</label>
+            <select id="ask-style">{% for s in styles %}<option value="{{ s }}">{{ s }}</option>{% endfor %}</select></div>
+          <button class="btn primary" type="submit" id="ask-btn">Ask</button>
+        </div>
+        <div class="chips" id="ask-chips"></div>
+        <div class="err" id="ask-err" role="alert"></div>
+      </form>
+      <div id="ask-result"></div>
+    </div>
+  </div>
+
+  <!-- Check -->
+  <div class="view" id="view-check" hidden>
+    <div class="card">
+      <h2>Check an answer (no model)</h2>
+      <p class="hint">Paste any answer and see v0 (prototype), v1s and v2 verdicts and every checked claim.</p>
+      <form id="form-check" novalidate>
+        <div class="row"><div class="field grow"><label for="chk-q">Question (optional; enables question-aware rules)</label>
+          <input id="chk-q" type="text" maxlength="500" placeholder="Which node is busiest?"></div></div>
+        <div class="row"><div class="field grow"><label for="chk-a">Answer</label>
+          <textarea id="chk-a" maxlength="4000" placeholder="Node-4 is the busiest node with 0.0% GPU utilization." required></textarea></div></div>
+        <div class="row">
+          <div class="field"><label for="chk-retrieval">Evidence</label>
+            <select id="chk-retrieval">{% for r in retrievals %}<option value="{{ r }}">{{ r }}</option>{% endfor %}</select></div>
+          <button class="btn primary" type="submit">Check</button>
+          <button class="btn" type="button" id="demo-check-btn">Run example checks</button>
+        </div>
+        <div class="err" id="chk-err" role="alert"></div>
+      </form>
+      <div id="chk-result"></div>
+    </div>
+    <div class="card">
+      <h2>Batch check a file</h2>
+      <p class="hint">CSV with columns <code>snapshot_id,question,answer</code>, or JSONL / JSON with the same keys. Up to 2 MB and 2,000 rows.</p>
+      <form id="form-batch" novalidate>
+        <div class="row">
+          <div class="field grow"><label for="batch-file">File</label><input id="batch-file" type="file" accept=".csv,.jsonl,.json"></div>
+          <button class="btn primary" type="submit">Upload and check</button>
+        </div>
+        <div class="err" id="batch-err" role="alert"></div>
+      </form>
+      <div id="batch-out" hidden>
+        <div class="row">
+          <div class="field grow"><label for="batch-filter">Filter</label><input id="batch-filter" type="text" placeholder="text, verdict, snapshot..."></div>
+          <a class="btn" id="batch-dl" href="#" download>Download results CSV</a>
+        </div>
+        <p class="hint" id="batch-summary"></p>
+        <div class="tablewrap"><table id="batch-table"></table></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Action -->
+  <div class="view" id="view-act" hidden>
+    <div class="card">
+      <h2>Guarded action</h2>
+      <p class="hint" id="act-hint">Model proposal &rarr; whitelist and inventory resolution &rarr; typed node-name confirmation &rarr; node state re-read at confirmation &rarr; busy nodes are blocked (no override). Execution is simulated.</p>
+      <form id="form-act" novalidate>
+        <div class="row"><div class="field grow"><label for="act-i">Instruction</label>
+          <input id="act-i" type="text" maxlength="500" placeholder="Shut down Node-3" required></div>
+          <button class="btn primary" type="submit" id="act-btn">Propose</button></div>
+        <div class="chips" id="act-chips"></div>
+        <div class="err" id="act-err" role="alert"></div>
+      </form>
+      <div id="act-result"></div>
+    </div>
+  </div>
+
+  <!-- Runs -->
+  <div class="view" id="view-runs" hidden>
+    <div class="card">
+      <h2>Recorded model runs</h2>
+      <p class="hint">Answers in <code>runs/gen_*.jsonl</code>, re-checked with v2 and scored against gold.</p>
+      <div class="row">
+        <div class="field grow"><label for="run-file">Run</label><select id="run-file"></select></div>
+        <div class="field"><label for="run-seed">Seed</label><select id="run-seed"><option value="">all</option></select></div>
+        <div class="field"><label for="run-tpl">Template</label><select id="run-tpl"><option value="">all</option></select></div>
+        <div class="field"><label for="run-v2">v2 verdict</label><select id="run-v2"><option value="">all</option>
+          <option>supported</option><option>abstain</option><option>unverifiable</option><option>unsupported</option></select></div>
+        <div class="field"><label for="run-correct">Correct</label><select id="run-correct"><option value="">all</option><option value="true">yes</option><option value="false">no</option></select></div>
+      </div>
+      <div class="row"><div class="field grow"><label for="run-q">Search</label><input id="run-q" type="text" placeholder="question, answer, node..."></div>
+        <a class="btn" id="run-dl" href="#" download>Download run file</a></div>
+      <p class="hint" id="run-summary"></p>
+      <div class="tablewrap"><table id="run-table"></table></div>
+    </div>
+  </div>
+
+  <!-- Tasks -->
+  <div class="view" id="view-tasks" hidden>
+    <div class="card" id="jobs-card" hidden>
+      <h2>Recent tasks</h2>
+      <p class="hint">Status of tasks started in this browser session. Open a log to follow a running task.</p>
+      <div id="jobs-list" aria-live="polite"></div>
+    </div>
+    <div class="card">
+      <h2>Tasks</h2>
+      <p class="hint">Each task runs the same console command as <code>./run.sh &lt;command&gt;</code> in the background. Only these commands are available; arguments are validated. One long task at a time.</p>
+      <div id="task-cards"></div>
+    </div>
+  </div>
+
+  <!-- Files -->
+  <div class="view" id="view-files" hidden>
+    <div class="card">
+      <h2>Generated files</h2>
+      <p class="hint">results/, results/tables/, runs/ and GUI outputs.</p>
+      <div class="row"><div class="field grow"><label for="files-q">Filter</label><input id="files-q" type="text" placeholder="e.g. tables, json"></div>
+        <button class="btn" id="files-refresh" type="button">Refresh</button></div>
+      <div class="tablewrap"><table id="files-table"></table></div>
+    </div>
+  </div>
+
+  <!-- Audit -->
+  <div class="view" id="view-audit" hidden>
+    <div class="card">
+      <h2>Audit log <span class="muted">(runs/demo_audit.jsonl, shared with the console demo)</span></h2>
+      <div class="row"><div class="field grow"><label for="audit-q">Search</label><input id="audit-q" type="text" placeholder="node, verdict, blocked..."></div>
+        <button class="btn" id="audit-refresh" type="button">Refresh</button>
+        <a class="btn" href="/download/runs/demo_audit.jsonl" download>Download</a></div>
+      <div class="tablewrap"><table id="audit-table"></table></div>
+    </div>
+  </div>
+</section>
+
+</main>
+<div class="toast" id="toast"></div>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

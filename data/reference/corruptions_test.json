@@ -1,0 +1,4202 @@
+[
+ {
+  "iid": "S000_correct_single_0",
+  "snapshot_id": "S000",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-7 is using 0 GB of GPU memory."
+ },
+ {
+  "iid": "S000_correct_single_1",
+  "snapshot_id": "S000",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-3 is using 0 GB of GPU memory."
+ },
+ {
+  "iid": "S000_correct_multi_2",
+  "snapshot_id": "S000",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "In the past hour, 0 instances failed on Node-7. Node-7 has 8 running instances."
+ },
+ {
+  "iid": "S000_value_small_3",
+  "snapshot_id": "S000",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-5 is using 1.0 GB of GPU memory."
+ },
+ {
+  "iid": "S000_value_large_4",
+  "snapshot_id": "S000",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-2 is running 15 jobs."
+ },
+ {
+  "iid": "S000_metric_swap_5",
+  "snapshot_id": "S000",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "There are 4 instances running on Node-8."
+ },
+ {
+  "iid": "S000_node_swap_6",
+  "snapshot_id": "S000",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "GPU memory in use on Node-2: 0.0 GB."
+ },
+ {
+  "iid": "S000_fabricated_node_7",
+  "snapshot_id": "S000",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-15 is running 12 jobs."
+ },
+ {
+  "iid": "S000_extra_fabricated_8",
+  "snapshot_id": "S000",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "Node-7 is running 8 jobs. Node-7 is using 20.4 GB of GPU memory."
+ },
+ {
+  "iid": "S000_state_correct_9",
+  "snapshot_id": "S000",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-3 is idle."
+ },
+ {
+  "iid": "S000_state_false_10",
+  "snapshot_id": "S000",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-6 is idle and can be shut down."
+ },
+ {
+  "iid": "S000_absence_correct_11",
+  "snapshot_id": "S000",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-15 is not present in the telemetry."
+ },
+ {
+  "iid": "S000_absence_false_12",
+  "snapshot_id": "S000",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-6 is not present in the telemetry."
+ },
+ {
+  "iid": "S000_qualitative_false_13",
+  "snapshot_id": "S000",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-4 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S000_no_claim_14",
+  "snapshot_id": "S000",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-1 looks healthy and needs no action."
+ },
+ {
+  "iid": "S001_correct_single_0",
+  "snapshot_id": "S001",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-4 shows a GPU utilization of 127%."
+ },
+ {
+  "iid": "S001_correct_single_1",
+  "snapshot_id": "S001",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-2 is running 18 jobs."
+ },
+ {
+  "iid": "S001_correct_multi_2",
+  "snapshot_id": "S001",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "There are 16 instances running on Node-4. Node-4 had 0 failed instances in the last hour."
+ },
+ {
+  "iid": "S001_value_small_3",
+  "snapshot_id": "S001",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "There are 15 instances running on Node-5."
+ },
+ {
+  "iid": "S001_value_large_4",
+  "snapshot_id": "S001",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "GPU memory in use on Node-2: 20.0 GB."
+ },
+ {
+  "iid": "S001_metric_swap_5",
+  "snapshot_id": "S001",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-5 has 0 running instances."
+ },
+ {
+  "iid": "S001_node_swap_6",
+  "snapshot_id": "S001",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "There are 1 instances running on Node-4."
+ },
+ {
+  "iid": "S001_fabricated_node_7",
+  "snapshot_id": "S001",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-14 is using 0.0 GB of GPU memory."
+ },
+ {
+  "iid": "S001_extra_fabricated_8",
+  "snapshot_id": "S001",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "Node-7 is running 0 jobs. Node-7 had 7 failed instances in the last hour."
+ },
+ {
+  "iid": "S001_state_correct_9",
+  "snapshot_id": "S001",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-7 is idle."
+ },
+ {
+  "iid": "S001_state_false_10",
+  "snapshot_id": "S001",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-1 is idle and can be shut down."
+ },
+ {
+  "iid": "S001_absence_correct_11",
+  "snapshot_id": "S001",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-14 is not present in the telemetry."
+ },
+ {
+  "iid": "S001_absence_false_12",
+  "snapshot_id": "S001",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-8 is not present in the telemetry."
+ },
+ {
+  "iid": "S001_qualitative_false_13",
+  "snapshot_id": "S001",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-6 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S001_no_claim_14",
+  "snapshot_id": "S001",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-4 looks healthy and needs no action."
+ },
+ {
+  "iid": "S002_correct_single_0",
+  "snapshot_id": "S002",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "In the past hour, 0 instances failed on Node-2."
+ },
+ {
+  "iid": "S002_correct_single_1",
+  "snapshot_id": "S002",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-2 is at 0% GPU utilization."
+ },
+ {
+  "iid": "S002_correct_multi_2",
+  "snapshot_id": "S002",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "GPU utilization on Node-1 is 123.3%. GPU memory in use on Node-1: 10 GB."
+ },
+ {
+  "iid": "S002_value_small_3",
+  "snapshot_id": "S002",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-5 has 9.9 GB of GPU memory allocated."
+ },
+ {
+  "iid": "S002_value_large_4",
+  "snapshot_id": "S002",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "There are 6 instances running on Node-8."
+ },
+ {
+  "iid": "S002_metric_swap_5",
+  "snapshot_id": "S002",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-5 shows a GPU utilization of 19.0%."
+ },
+ {
+  "iid": "S002_node_swap_6",
+  "snapshot_id": "S002",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-3 has 15.8 GB of GPU memory allocated."
+ },
+ {
+  "iid": "S002_fabricated_node_7",
+  "snapshot_id": "S002",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-10 is at 123.3% GPU utilization."
+ },
+ {
+  "iid": "S002_extra_fabricated_8",
+  "snapshot_id": "S002",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "Node-5 had 0 failed instances in the last hour. There are 11 instances running on Node-5."
+ },
+ {
+  "iid": "S002_state_correct_9",
+  "snapshot_id": "S002",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-2 is idle."
+ },
+ {
+  "iid": "S002_state_false_10",
+  "snapshot_id": "S002",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-4 is idle and can be shut down."
+ },
+ {
+  "iid": "S002_absence_correct_11",
+  "snapshot_id": "S002",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-10 is not present in the telemetry."
+ },
+ {
+  "iid": "S002_absence_false_12",
+  "snapshot_id": "S002",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-3 is not present in the telemetry."
+ },
+ {
+  "iid": "S002_qualitative_false_13",
+  "snapshot_id": "S002",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-2 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S002_no_claim_14",
+  "snapshot_id": "S002",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-1 looks healthy and needs no action."
+ },
+ {
+  "iid": "S003_correct_single_0",
+  "snapshot_id": "S003",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-6 has 14 GB of GPU memory allocated."
+ },
+ {
+  "iid": "S003_correct_single_1",
+  "snapshot_id": "S003",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-3 has 19 running instances."
+ },
+ {
+  "iid": "S003_correct_multi_2",
+  "snapshot_id": "S003",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "In the past hour, 0 instances failed on Node-7. GPU utilization on Node-7 is 0.0%."
+ },
+ {
+  "iid": "S003_value_small_3",
+  "snapshot_id": "S003",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-3 has 18 running instances."
+ },
+ {
+  "iid": "S003_value_large_4",
+  "snapshot_id": "S003",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-4 had 5 failed instances in the last hour."
+ },
+ {
+  "iid": "S003_metric_swap_5",
+  "snapshot_id": "S003",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-6 has 123 running instances."
+ },
+ {
+  "iid": "S003_node_swap_6",
+  "snapshot_id": "S003",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-7 shows a GPU utilization of 72.6%."
+ },
+ {
+  "iid": "S003_fabricated_node_7",
+  "snapshot_id": "S003",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-18 shows a GPU utilization of 73%."
+ },
+ {
+  "iid": "S003_extra_fabricated_8",
+  "snapshot_id": "S003",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "In the past hour, 0 instances failed on Node-1. There are 6 instances running on Node-1."
+ },
+ {
+  "iid": "S003_state_correct_9",
+  "snapshot_id": "S003",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-1 is idle."
+ },
+ {
+  "iid": "S003_state_false_10",
+  "snapshot_id": "S003",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-4 is idle and can be shut down."
+ },
+ {
+  "iid": "S003_absence_correct_11",
+  "snapshot_id": "S003",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-18 is not present in the telemetry."
+ },
+ {
+  "iid": "S003_absence_false_12",
+  "snapshot_id": "S003",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-1 is not present in the telemetry."
+ },
+ {
+  "iid": "S003_qualitative_false_13",
+  "snapshot_id": "S003",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-1 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S003_no_claim_14",
+  "snapshot_id": "S003",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-8 looks healthy and needs no action."
+ },
+ {
+  "iid": "S004_correct_single_0",
+  "snapshot_id": "S004",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "There are 31 instances running on Node-7."
+ },
+ {
+  "iid": "S004_correct_single_1",
+  "snapshot_id": "S004",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-2 is using 13.8 GB of GPU memory."
+ },
+ {
+  "iid": "S004_correct_multi_2",
+  "snapshot_id": "S004",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "Node-5 had 2 failed instances in the last hour. Node-5 is running 26 jobs."
+ },
+ {
+  "iid": "S004_value_small_3",
+  "snapshot_id": "S004",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-2 had 2 failed instances in the last hour."
+ },
+ {
+  "iid": "S004_value_large_4",
+  "snapshot_id": "S004",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "GPU memory in use on Node-5: 22.6 GB."
+ },
+ {
+  "iid": "S004_metric_swap_5",
+  "snapshot_id": "S004",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "GPU memory in use on Node-4: 6.0 GB."
+ },
+ {
+  "iid": "S004_node_swap_6",
+  "snapshot_id": "S004",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-5 shows a GPU utilization of 90.0%."
+ },
+ {
+  "iid": "S004_fabricated_node_7",
+  "snapshot_id": "S004",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-13 is using 1 GB of GPU memory."
+ },
+ {
+  "iid": "S004_extra_fabricated_8",
+  "snapshot_id": "S004",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "Node-8 is running 10 jobs. Node-8 shows a GPU utilization of 20.0%."
+ },
+ {
+  "iid": "S004_state_correct_9",
+  "snapshot_id": "S004",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-1 is idle."
+ },
+ {
+  "iid": "S004_state_false_10",
+  "snapshot_id": "S004",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-3 is idle and can be shut down."
+ },
+ {
+  "iid": "S004_absence_correct_11",
+  "snapshot_id": "S004",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-13 is not present in the telemetry."
+ },
+ {
+  "iid": "S004_absence_false_12",
+  "snapshot_id": "S004",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-3 is not present in the telemetry."
+ },
+ {
+  "iid": "S004_qualitative_false_13",
+  "snapshot_id": "S004",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-6 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S004_no_claim_14",
+  "snapshot_id": "S004",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-4 looks healthy and needs no action."
+ },
+ {
+  "iid": "S005_correct_single_0",
+  "snapshot_id": "S005",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-4 has 8 GB of GPU memory allocated."
+ },
+ {
+  "iid": "S005_correct_single_1",
+  "snapshot_id": "S005",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-6 is at 0% GPU utilization."
+ },
+ {
+  "iid": "S005_correct_multi_2",
+  "snapshot_id": "S005",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "GPU utilization on Node-7 is 0%. Node-7 is running 0 jobs."
+ },
+ {
+  "iid": "S005_value_small_3",
+  "snapshot_id": "S005",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-4 had 2 failed instances in the last hour."
+ },
+ {
+  "iid": "S005_value_large_4",
+  "snapshot_id": "S005",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-2 shows a GPU utilization of 20.0%."
+ },
+ {
+  "iid": "S005_metric_swap_5",
+  "snapshot_id": "S005",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-1 has 27.0 GB of GPU memory allocated."
+ },
+ {
+  "iid": "S005_node_swap_6",
+  "snapshot_id": "S005",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-4 is using 33.2 GB of GPU memory."
+ },
+ {
+  "iid": "S005_fabricated_node_7",
+  "snapshot_id": "S005",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "GPU utilization on Node-17 is 0%."
+ },
+ {
+  "iid": "S005_extra_fabricated_8",
+  "snapshot_id": "S005",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "Node-1 has 1.0 GB of GPU memory allocated. Node-1 is at 21.2% GPU utilization."
+ },
+ {
+  "iid": "S005_state_correct_9",
+  "snapshot_id": "S005",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-5 is idle."
+ },
+ {
+  "iid": "S005_state_false_10",
+  "snapshot_id": "S005",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-2 is idle and can be shut down."
+ },
+ {
+  "iid": "S005_absence_correct_11",
+  "snapshot_id": "S005",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-17 is not present in the telemetry."
+ },
+ {
+  "iid": "S005_absence_false_12",
+  "snapshot_id": "S005",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-8 is not present in the telemetry."
+ },
+ {
+  "iid": "S005_qualitative_false_13",
+  "snapshot_id": "S005",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-7 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S005_no_claim_14",
+  "snapshot_id": "S005",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-2 looks healthy and needs no action."
+ },
+ {
+  "iid": "S006_correct_single_0",
+  "snapshot_id": "S006",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "GPU memory in use on Node-8: 0.0 GB."
+ },
+ {
+  "iid": "S006_correct_single_1",
+  "snapshot_id": "S006",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "GPU utilization on Node-3 is 0.0%."
+ },
+ {
+  "iid": "S006_correct_multi_2",
+  "snapshot_id": "S006",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "Node-8 is running 7 jobs. Node-8 had 0 failed instances in the last hour."
+ },
+ {
+  "iid": "S006_value_small_3",
+  "snapshot_id": "S006",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-2 had 1 failed instances in the last hour."
+ },
+ {
+  "iid": "S006_value_large_4",
+  "snapshot_id": "S006",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-8 has 15 running instances."
+ },
+ {
+  "iid": "S006_metric_swap_5",
+  "snapshot_id": "S006",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "There are 0 instances running on Node-2."
+ },
+ {
+  "iid": "S006_node_swap_6",
+  "snapshot_id": "S006",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-3 has 6 running instances."
+ },
+ {
+  "iid": "S006_fabricated_node_7",
+  "snapshot_id": "S006",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-11 is at 0% GPU utilization."
+ },
+ {
+  "iid": "S006_extra_fabricated_8",
+  "snapshot_id": "S006",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "GPU utilization on Node-2 is 0.0%. GPU memory in use on Node-2: 20.0 GB."
+ },
+ {
+  "iid": "S006_state_correct_9",
+  "snapshot_id": "S006",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-6 is idle."
+ },
+ {
+  "iid": "S006_state_false_10",
+  "snapshot_id": "S006",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-5 is idle and can be shut down."
+ },
+ {
+  "iid": "S006_absence_correct_11",
+  "snapshot_id": "S006",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-11 is not present in the telemetry."
+ },
+ {
+  "iid": "S006_absence_false_12",
+  "snapshot_id": "S006",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-7 is not present in the telemetry."
+ },
+ {
+  "iid": "S006_qualitative_false_13",
+  "snapshot_id": "S006",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-6 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S006_no_claim_14",
+  "snapshot_id": "S006",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-2 looks healthy and needs no action."
+ },
+ {
+  "iid": "S007_correct_single_0",
+  "snapshot_id": "S007",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "In the past hour, 0 instances failed on Node-3."
+ },
+ {
+  "iid": "S007_correct_single_1",
+  "snapshot_id": "S007",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-2 is at 0% GPU utilization."
+ },
+ {
+  "iid": "S007_correct_multi_2",
+  "snapshot_id": "S007",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "Node-8 has 29 running instances. Node-8 shows a GPU utilization of 87.0%."
+ },
+ {
+  "iid": "S007_value_small_3",
+  "snapshot_id": "S007",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-2 had 1 failed instances in the last hour."
+ },
+ {
+  "iid": "S007_value_large_4",
+  "snapshot_id": "S007",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-4 has 31 running instances."
+ },
+ {
+  "iid": "S007_metric_swap_5",
+  "snapshot_id": "S007",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-3 is at 17.0% GPU utilization."
+ },
+ {
+  "iid": "S007_node_swap_6",
+  "snapshot_id": "S007",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "There are 0 instances running on Node-3."
+ },
+ {
+  "iid": "S007_fabricated_node_7",
+  "snapshot_id": "S007",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-11 has 17 running instances."
+ },
+ {
+  "iid": "S007_extra_fabricated_8",
+  "snapshot_id": "S007",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "There are 15 instances running on Node-1. Node-1 had 122 failed instances in the last hour."
+ },
+ {
+  "iid": "S007_state_correct_9",
+  "snapshot_id": "S007",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-5 is idle."
+ },
+ {
+  "iid": "S007_state_false_10",
+  "snapshot_id": "S007",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-1 is idle and can be shut down."
+ },
+ {
+  "iid": "S007_absence_correct_11",
+  "snapshot_id": "S007",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-11 is not present in the telemetry."
+ },
+ {
+  "iid": "S007_absence_false_12",
+  "snapshot_id": "S007",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-4 is not present in the telemetry."
+ },
+ {
+  "iid": "S007_qualitative_false_13",
+  "snapshot_id": "S007",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-2 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S007_no_claim_14",
+  "snapshot_id": "S007",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-3 looks healthy and needs no action."
+ },
+ {
+  "iid": "S008_correct_single_0",
+  "snapshot_id": "S008",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-7 has 11.6 GB of GPU memory allocated."
+ },
+ {
+  "iid": "S008_correct_single_1",
+  "snapshot_id": "S008",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-4 had 2 failed instances in the last hour."
+ },
+ {
+  "iid": "S008_correct_multi_2",
+  "snapshot_id": "S008",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "Node-1 has 17 running instances. GPU utilization on Node-1 is 3.6%."
+ },
+ {
+  "iid": "S008_value_small_3",
+  "snapshot_id": "S008",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-4 has 1.6 GB of GPU memory allocated."
+ },
+ {
+  "iid": "S008_value_large_4",
+  "snapshot_id": "S008",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-7 is at 194.0% GPU utilization."
+ },
+ {
+  "iid": "S008_metric_swap_5",
+  "snapshot_id": "S008",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-4 shows a GPU utilization of 4.6%."
+ },
+ {
+  "iid": "S008_node_swap_6",
+  "snapshot_id": "S008",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "GPU memory in use on Node-1: 0.0 GB."
+ },
+ {
+  "iid": "S008_fabricated_node_7",
+  "snapshot_id": "S008",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "There are 17 instances running on Node-17."
+ },
+ {
+  "iid": "S008_extra_fabricated_8",
+  "snapshot_id": "S008",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "GPU utilization on Node-4 is 24%. Node-4 is running 28 jobs."
+ },
+ {
+  "iid": "S008_state_correct_9",
+  "snapshot_id": "S008",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-2 is idle."
+ },
+ {
+  "iid": "S008_state_false_10",
+  "snapshot_id": "S008",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-5 is idle and can be shut down."
+ },
+ {
+  "iid": "S008_absence_correct_11",
+  "snapshot_id": "S008",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-17 is not present in the telemetry."
+ },
+ {
+  "iid": "S008_absence_false_12",
+  "snapshot_id": "S008",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-2 is not present in the telemetry."
+ },
+ {
+  "iid": "S008_qualitative_false_13",
+  "snapshot_id": "S008",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-2 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S008_no_claim_14",
+  "snapshot_id": "S008",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-6 looks healthy and needs no action."
+ },
+ {
+  "iid": "S009_correct_single_0",
+  "snapshot_id": "S009",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "In the past hour, 0 instances failed on Node-6."
+ },
+ {
+  "iid": "S009_correct_single_1",
+  "snapshot_id": "S009",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "In the past hour, 0 instances failed on Node-5."
+ },
+ {
+  "iid": "S009_correct_multi_2",
+  "snapshot_id": "S009",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "In the past hour, 2 instances failed on Node-8. GPU memory in use on Node-8: 4.6 GB."
+ },
+ {
+  "iid": "S009_value_small_3",
+  "snapshot_id": "S009",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "In the past hour, 1 instances failed on Node-5."
+ },
+ {
+  "iid": "S009_value_large_4",
+  "snapshot_id": "S009",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-5 has 7 running instances."
+ },
+ {
+  "iid": "S009_metric_swap_5",
+  "snapshot_id": "S009",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-8 is using 24.0 GB of GPU memory."
+ },
+ {
+  "iid": "S009_node_swap_6",
+  "snapshot_id": "S009",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-8 is using 21.0 GB of GPU memory."
+ },
+ {
+  "iid": "S009_fabricated_node_7",
+  "snapshot_id": "S009",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-13 has 0.0 GB of GPU memory allocated."
+ },
+ {
+  "iid": "S009_extra_fabricated_8",
+  "snapshot_id": "S009",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "In the past hour, 0 instances failed on Node-1. GPU memory in use on Node-1: 64.6 GB."
+ },
+ {
+  "iid": "S009_state_correct_9",
+  "snapshot_id": "S009",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-5 is idle."
+ },
+ {
+  "iid": "S009_state_false_10",
+  "snapshot_id": "S009",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-7 is idle and can be shut down."
+ },
+ {
+  "iid": "S009_absence_correct_11",
+  "snapshot_id": "S009",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-13 is not present in the telemetry."
+ },
+ {
+  "iid": "S009_absence_false_12",
+  "snapshot_id": "S009",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-7 is not present in the telemetry."
+ },
+ {
+  "iid": "S009_qualitative_false_13",
+  "snapshot_id": "S009",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-3 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S009_no_claim_14",
+  "snapshot_id": "S009",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-6 looks healthy and needs no action."
+ },
+ {
+  "iid": "S010_correct_single_0",
+  "snapshot_id": "S010",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "GPU utilization on Node-4 is 1.4%."
+ },
+ {
+  "iid": "S010_correct_single_1",
+  "snapshot_id": "S010",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-7 is running 24 jobs."
+ },
+ {
+  "iid": "S010_correct_multi_2",
+  "snapshot_id": "S010",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "Node-6 had 2 failed instances in the last hour. Node-6 shows a GPU utilization of 7.7%."
+ },
+ {
+  "iid": "S010_value_small_3",
+  "snapshot_id": "S010",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-4 had 1 failed instances in the last hour."
+ },
+ {
+  "iid": "S010_value_large_4",
+  "snapshot_id": "S010",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-2 shows a GPU utilization of 137.8%."
+ },
+ {
+  "iid": "S010_metric_swap_5",
+  "snapshot_id": "S010",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-5 is at 28.0% GPU utilization."
+ },
+ {
+  "iid": "S010_node_swap_6",
+  "snapshot_id": "S010",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-5 is at 7.7% GPU utilization."
+ },
+ {
+  "iid": "S010_fabricated_node_7",
+  "snapshot_id": "S010",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-13 has 0.0 GB of GPU memory allocated."
+ },
+ {
+  "iid": "S010_extra_fabricated_8",
+  "snapshot_id": "S010",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "GPU utilization on Node-5 is 67.8%. Node-5 had 8 failed instances in the last hour."
+ },
+ {
+  "iid": "S010_state_correct_9",
+  "snapshot_id": "S010",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-8 is idle."
+ },
+ {
+  "iid": "S010_state_false_10",
+  "snapshot_id": "S010",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-6 is idle and can be shut down."
+ },
+ {
+  "iid": "S010_absence_correct_11",
+  "snapshot_id": "S010",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-13 is not present in the telemetry."
+ },
+ {
+  "iid": "S010_absence_false_12",
+  "snapshot_id": "S010",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-8 is not present in the telemetry."
+ },
+ {
+  "iid": "S010_qualitative_false_13",
+  "snapshot_id": "S010",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-3 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S010_no_claim_14",
+  "snapshot_id": "S010",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-8 looks healthy and needs no action."
+ },
+ {
+  "iid": "S011_correct_single_0",
+  "snapshot_id": "S011",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "In the past hour, 7 instances failed on Node-3."
+ },
+ {
+  "iid": "S011_correct_single_1",
+  "snapshot_id": "S011",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "GPU utilization on Node-6 is 123%."
+ },
+ {
+  "iid": "S011_correct_multi_2",
+  "snapshot_id": "S011",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "Node-7 is running 1 jobs. Node-7 shows a GPU utilization of 629%."
+ },
+ {
+  "iid": "S011_value_small_3",
+  "snapshot_id": "S011",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-6 has 19.5 GB of GPU memory allocated."
+ },
+ {
+  "iid": "S011_value_large_4",
+  "snapshot_id": "S011",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-7 had 8 failed instances in the last hour."
+ },
+ {
+  "iid": "S011_metric_swap_5",
+  "snapshot_id": "S011",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-4 has 9.0 GB of GPU memory allocated."
+ },
+ {
+  "iid": "S011_node_swap_6",
+  "snapshot_id": "S011",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-6 is at 0.0% GPU utilization."
+ },
+ {
+  "iid": "S011_fabricated_node_7",
+  "snapshot_id": "S011",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-18 is at 0% GPU utilization."
+ },
+ {
+  "iid": "S011_extra_fabricated_8",
+  "snapshot_id": "S011",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "Node-2 has 0.0 GB of GPU memory allocated. GPU utilization on Node-2 is 20.0%."
+ },
+ {
+  "iid": "S011_state_correct_9",
+  "snapshot_id": "S011",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-5 is idle."
+ },
+ {
+  "iid": "S011_state_false_10",
+  "snapshot_id": "S011",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-4 is idle and can be shut down."
+ },
+ {
+  "iid": "S011_absence_correct_11",
+  "snapshot_id": "S011",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-18 is not present in the telemetry."
+ },
+ {
+  "iid": "S011_absence_false_12",
+  "snapshot_id": "S011",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-8 is not present in the telemetry."
+ },
+ {
+  "iid": "S011_qualitative_false_13",
+  "snapshot_id": "S011",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-8 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S011_no_claim_14",
+  "snapshot_id": "S011",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-5 looks healthy and needs no action."
+ },
+ {
+  "iid": "S012_correct_single_0",
+  "snapshot_id": "S012",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-7 had 0 failed instances in the last hour."
+ },
+ {
+  "iid": "S012_correct_single_1",
+  "snapshot_id": "S012",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "In the past hour, 0 instances failed on Node-5."
+ },
+ {
+  "iid": "S012_correct_multi_2",
+  "snapshot_id": "S012",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "Node-4 had 0 failed instances in the last hour. Node-4 is running 16 jobs."
+ },
+ {
+  "iid": "S012_value_small_3",
+  "snapshot_id": "S012",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-8 is running 1 jobs."
+ },
+ {
+  "iid": "S012_value_large_4",
+  "snapshot_id": "S012",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "In the past hour, 7 instances failed on Node-5."
+ },
+ {
+  "iid": "S012_metric_swap_5",
+  "snapshot_id": "S012",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "There are 104 instances running on Node-5."
+ },
+ {
+  "iid": "S012_node_swap_6",
+  "snapshot_id": "S012",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-3 is running 16 jobs."
+ },
+ {
+  "iid": "S012_fabricated_node_7",
+  "snapshot_id": "S012",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-10 has 0 GB of GPU memory allocated."
+ },
+ {
+  "iid": "S012_extra_fabricated_8",
+  "snapshot_id": "S012",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "In the past hour, 0 instances failed on Node-6. GPU memory in use on Node-6: 33.2 GB."
+ },
+ {
+  "iid": "S012_state_correct_9",
+  "snapshot_id": "S012",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-3 is idle."
+ },
+ {
+  "iid": "S012_state_false_10",
+  "snapshot_id": "S012",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-5 is idle and can be shut down."
+ },
+ {
+  "iid": "S012_absence_correct_11",
+  "snapshot_id": "S012",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-10 is not present in the telemetry."
+ },
+ {
+  "iid": "S012_absence_false_12",
+  "snapshot_id": "S012",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-3 is not present in the telemetry."
+ },
+ {
+  "iid": "S012_qualitative_false_13",
+  "snapshot_id": "S012",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-3 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S012_no_claim_14",
+  "snapshot_id": "S012",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-4 looks healthy and needs no action."
+ },
+ {
+  "iid": "S013_correct_single_0",
+  "snapshot_id": "S013",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-4 shows a GPU utilization of 232.8%."
+ },
+ {
+  "iid": "S013_correct_single_1",
+  "snapshot_id": "S013",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-4 is running 24 jobs."
+ },
+ {
+  "iid": "S013_correct_multi_2",
+  "snapshot_id": "S013",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "Node-1 had 0 failed instances in the last hour. Node-1 is using 3 GB of GPU memory."
+ },
+ {
+  "iid": "S013_value_small_3",
+  "snapshot_id": "S013",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-6 has 3.0 GB of GPU memory allocated."
+ },
+ {
+  "iid": "S013_value_large_4",
+  "snapshot_id": "S013",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "GPU memory in use on Node-6: 20.0 GB."
+ },
+ {
+  "iid": "S013_metric_swap_5",
+  "snapshot_id": "S013",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "There are 232 instances running on Node-4."
+ },
+ {
+  "iid": "S013_node_swap_6",
+  "snapshot_id": "S013",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-4 has 0 running instances."
+ },
+ {
+  "iid": "S013_fabricated_node_7",
+  "snapshot_id": "S013",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-10 is using 0.0 GB of GPU memory."
+ },
+ {
+  "iid": "S013_extra_fabricated_8",
+  "snapshot_id": "S013",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "Node-4 has 23.3 GB of GPU memory allocated. Node-4 is running 19 jobs."
+ },
+ {
+  "iid": "S013_state_correct_9",
+  "snapshot_id": "S013",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-5 is idle."
+ },
+ {
+  "iid": "S013_state_false_10",
+  "snapshot_id": "S013",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-2 is idle and can be shut down."
+ },
+ {
+  "iid": "S013_absence_correct_11",
+  "snapshot_id": "S013",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-10 is not present in the telemetry."
+ },
+ {
+  "iid": "S013_absence_false_12",
+  "snapshot_id": "S013",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-6 is not present in the telemetry."
+ },
+ {
+  "iid": "S013_qualitative_false_13",
+  "snapshot_id": "S013",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-5 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S013_no_claim_14",
+  "snapshot_id": "S013",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-6 looks healthy and needs no action."
+ },
+ {
+  "iid": "S014_correct_single_0",
+  "snapshot_id": "S014",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-1 is using 20.7 GB of GPU memory."
+ },
+ {
+  "iid": "S014_correct_single_1",
+  "snapshot_id": "S014",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-7 is at 0% GPU utilization."
+ },
+ {
+  "iid": "S014_correct_multi_2",
+  "snapshot_id": "S014",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "GPU memory in use on Node-6: 0.4 GB. In the past hour, 0 instances failed on Node-6."
+ },
+ {
+  "iid": "S014_value_small_3",
+  "snapshot_id": "S014",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "There are 21 instances running on Node-3."
+ },
+ {
+  "iid": "S014_value_large_4",
+  "snapshot_id": "S014",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-1 is at 325.6% GPU utilization."
+ },
+ {
+  "iid": "S014_metric_swap_5",
+  "snapshot_id": "S014",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-6 has 0 running instances."
+ },
+ {
+  "iid": "S014_node_swap_6",
+  "snapshot_id": "S014",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-8 shows a GPU utilization of 152.8%."
+ },
+ {
+  "iid": "S014_fabricated_node_7",
+  "snapshot_id": "S014",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-19 is running 1 jobs."
+ },
+ {
+  "iid": "S014_extra_fabricated_8",
+  "snapshot_id": "S014",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "GPU memory in use on Node-5: 1 GB. There are 18 instances running on Node-5."
+ },
+ {
+  "iid": "S014_state_correct_9",
+  "snapshot_id": "S014",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-8 is idle."
+ },
+ {
+  "iid": "S014_state_false_10",
+  "snapshot_id": "S014",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-4 is idle and can be shut down."
+ },
+ {
+  "iid": "S014_absence_correct_11",
+  "snapshot_id": "S014",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-19 is not present in the telemetry."
+ },
+ {
+  "iid": "S014_absence_false_12",
+  "snapshot_id": "S014",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-1 is not present in the telemetry."
+ },
+ {
+  "iid": "S014_qualitative_false_13",
+  "snapshot_id": "S014",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-8 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S014_no_claim_14",
+  "snapshot_id": "S014",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-4 looks healthy and needs no action."
+ },
+ {
+  "iid": "S015_correct_single_0",
+  "snapshot_id": "S015",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "GPU memory in use on Node-5: 0 GB."
+ },
+ {
+  "iid": "S015_correct_single_1",
+  "snapshot_id": "S015",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "GPU utilization on Node-6 is 115.8%."
+ },
+ {
+  "iid": "S015_correct_multi_2",
+  "snapshot_id": "S015",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "Node-7 has 0 running instances. Node-7 had 0 failed instances in the last hour."
+ },
+ {
+  "iid": "S015_value_small_3",
+  "snapshot_id": "S015",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-6 has 16.7 GB of GPU memory allocated."
+ },
+ {
+  "iid": "S015_value_large_4",
+  "snapshot_id": "S015",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-3 had 8 failed instances in the last hour."
+ },
+ {
+  "iid": "S015_metric_swap_5",
+  "snapshot_id": "S015",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-3 has 51.2 GB of GPU memory allocated."
+ },
+ {
+  "iid": "S015_node_swap_6",
+  "snapshot_id": "S015",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "There are 28 instances running on Node-8."
+ },
+ {
+  "iid": "S015_fabricated_node_7",
+  "snapshot_id": "S015",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-19 shows a GPU utilization of 0.0%."
+ },
+ {
+  "iid": "S015_extra_fabricated_8",
+  "snapshot_id": "S015",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "GPU utilization on Node-4 is 0%. Node-4 has 24 running instances."
+ },
+ {
+  "iid": "S015_state_correct_9",
+  "snapshot_id": "S015",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-8 is idle."
+ },
+ {
+  "iid": "S015_state_false_10",
+  "snapshot_id": "S015",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-5 is idle and can be shut down."
+ },
+ {
+  "iid": "S015_absence_correct_11",
+  "snapshot_id": "S015",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-19 is not present in the telemetry."
+ },
+ {
+  "iid": "S015_absence_false_12",
+  "snapshot_id": "S015",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-5 is not present in the telemetry."
+ },
+ {
+  "iid": "S015_qualitative_false_13",
+  "snapshot_id": "S015",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-8 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S015_no_claim_14",
+  "snapshot_id": "S015",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-2 looks healthy and needs no action."
+ },
+ {
+  "iid": "S016_correct_single_0",
+  "snapshot_id": "S016",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-5 has 27 running instances."
+ },
+ {
+  "iid": "S016_correct_single_1",
+  "snapshot_id": "S016",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-8 is running 31 jobs."
+ },
+ {
+  "iid": "S016_correct_multi_2",
+  "snapshot_id": "S016",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "Node-3 has 1 running instances. Node-3 is using 0.0 GB of GPU memory."
+ },
+ {
+  "iid": "S016_value_small_3",
+  "snapshot_id": "S016",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "In the past hour, 1 instances failed on Node-6."
+ },
+ {
+  "iid": "S016_value_large_4",
+  "snapshot_id": "S016",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-6 had 4 failed instances in the last hour."
+ },
+ {
+  "iid": "S016_metric_swap_5",
+  "snapshot_id": "S016",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-2 is running 0 jobs."
+ },
+ {
+  "iid": "S016_node_swap_6",
+  "snapshot_id": "S016",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-7 is at 72.4% GPU utilization."
+ },
+ {
+  "iid": "S016_fabricated_node_7",
+  "snapshot_id": "S016",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-14 had 2 failed instances in the last hour."
+ },
+ {
+  "iid": "S016_extra_fabricated_8",
+  "snapshot_id": "S016",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "GPU utilization on Node-3 is 0%. In the past hour, 7 instances failed on Node-3."
+ },
+ {
+  "iid": "S016_state_correct_9",
+  "snapshot_id": "S016",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-6 is idle."
+ },
+ {
+  "iid": "S016_state_false_10",
+  "snapshot_id": "S016",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-8 is idle and can be shut down."
+ },
+ {
+  "iid": "S016_absence_correct_11",
+  "snapshot_id": "S016",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-14 is not present in the telemetry."
+ },
+ {
+  "iid": "S016_absence_false_12",
+  "snapshot_id": "S016",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-4 is not present in the telemetry."
+ },
+ {
+  "iid": "S016_qualitative_false_13",
+  "snapshot_id": "S016",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-6 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S016_no_claim_14",
+  "snapshot_id": "S016",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-2 looks healthy and needs no action."
+ },
+ {
+  "iid": "S017_correct_single_0",
+  "snapshot_id": "S017",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-7 is running 11 jobs."
+ },
+ {
+  "iid": "S017_correct_single_1",
+  "snapshot_id": "S017",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "In the past hour, 0 instances failed on Node-1."
+ },
+ {
+  "iid": "S017_correct_multi_2",
+  "snapshot_id": "S017",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "Node-8 has 21 running instances. In the past hour, 0 instances failed on Node-8."
+ },
+ {
+  "iid": "S017_value_small_3",
+  "snapshot_id": "S017",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-1 had 1 failed instances in the last hour."
+ },
+ {
+  "iid": "S017_value_large_4",
+  "snapshot_id": "S017",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "GPU utilization on Node-1 is 20.0%."
+ },
+ {
+  "iid": "S017_metric_swap_5",
+  "snapshot_id": "S017",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-6 has 24 running instances."
+ },
+ {
+  "iid": "S017_node_swap_6",
+  "snapshot_id": "S017",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-4 is at 153.2% GPU utilization."
+ },
+ {
+  "iid": "S017_fabricated_node_7",
+  "snapshot_id": "S017",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "GPU memory in use on Node-15: 32 GB."
+ },
+ {
+  "iid": "S017_extra_fabricated_8",
+  "snapshot_id": "S017",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "Node-2 is at 130% GPU utilization. Node-2 is running 55 jobs."
+ },
+ {
+  "iid": "S017_state_correct_9",
+  "snapshot_id": "S017",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-1 is idle."
+ },
+ {
+  "iid": "S017_state_false_10",
+  "snapshot_id": "S017",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-5 is idle and can be shut down."
+ },
+ {
+  "iid": "S017_absence_correct_11",
+  "snapshot_id": "S017",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-15 is not present in the telemetry."
+ },
+ {
+  "iid": "S017_absence_false_12",
+  "snapshot_id": "S017",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-6 is not present in the telemetry."
+ },
+ {
+  "iid": "S017_qualitative_false_13",
+  "snapshot_id": "S017",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-1 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S017_no_claim_14",
+  "snapshot_id": "S017",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-6 looks healthy and needs no action."
+ },
+ {
+  "iid": "S018_correct_single_0",
+  "snapshot_id": "S018",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "In the past hour, 0 instances failed on Node-2."
+ },
+ {
+  "iid": "S018_correct_single_1",
+  "snapshot_id": "S018",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "GPU utilization on Node-1 is 198%."
+ },
+ {
+  "iid": "S018_correct_multi_2",
+  "snapshot_id": "S018",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "GPU memory in use on Node-4: 5.4 GB. Node-4 has 27 running instances."
+ },
+ {
+  "iid": "S018_value_small_3",
+  "snapshot_id": "S018",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-7 had 2 failed instances in the last hour."
+ },
+ {
+  "iid": "S018_value_large_4",
+  "snapshot_id": "S018",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-8 is running 22 jobs."
+ },
+ {
+  "iid": "S018_metric_swap_5",
+  "snapshot_id": "S018",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-7 is at 5.0% GPU utilization."
+ },
+ {
+  "iid": "S018_node_swap_6",
+  "snapshot_id": "S018",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-2 has 5 running instances."
+ },
+ {
+  "iid": "S018_fabricated_node_7",
+  "snapshot_id": "S018",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "In the past hour, 0 instances failed on Node-19."
+ },
+ {
+  "iid": "S018_extra_fabricated_8",
+  "snapshot_id": "S018",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "In the past hour, 0 instances failed on Node-4. GPU memory in use on Node-4: 30.8 GB."
+ },
+ {
+  "iid": "S018_state_correct_9",
+  "snapshot_id": "S018",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-6 is idle."
+ },
+ {
+  "iid": "S018_state_false_10",
+  "snapshot_id": "S018",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-4 is idle and can be shut down."
+ },
+ {
+  "iid": "S018_absence_correct_11",
+  "snapshot_id": "S018",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-19 is not present in the telemetry."
+ },
+ {
+  "iid": "S018_absence_false_12",
+  "snapshot_id": "S018",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-4 is not present in the telemetry."
+ },
+ {
+  "iid": "S018_qualitative_false_13",
+  "snapshot_id": "S018",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-2 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S018_no_claim_14",
+  "snapshot_id": "S018",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-7 looks healthy and needs no action."
+ },
+ {
+  "iid": "S019_correct_single_0",
+  "snapshot_id": "S019",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-5 had 0 failed instances in the last hour."
+ },
+ {
+  "iid": "S019_correct_single_1",
+  "snapshot_id": "S019",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-8 had 4 failed instances in the last hour."
+ },
+ {
+  "iid": "S019_correct_multi_2",
+  "snapshot_id": "S019",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "Node-4 shows a GPU utilization of 0%. There are 0 instances running on Node-4."
+ },
+ {
+  "iid": "S019_value_small_3",
+  "snapshot_id": "S019",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "There are 23 instances running on Node-5."
+ },
+ {
+  "iid": "S019_value_large_4",
+  "snapshot_id": "S019",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "There are 12 instances running on Node-6."
+ },
+ {
+  "iid": "S019_metric_swap_5",
+  "snapshot_id": "S019",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-1 is at 19.8% GPU utilization."
+ },
+ {
+  "iid": "S019_node_swap_6",
+  "snapshot_id": "S019",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "There are 21 instances running on Node-2."
+ },
+ {
+  "iid": "S019_fabricated_node_7",
+  "snapshot_id": "S019",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "GPU utilization on Node-15 is 0%."
+ },
+ {
+  "iid": "S019_extra_fabricated_8",
+  "snapshot_id": "S019",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "GPU utilization on Node-3 is 0%. Node-3 had 74 failed instances in the last hour."
+ },
+ {
+  "iid": "S019_state_correct_9",
+  "snapshot_id": "S019",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-4 is idle."
+ },
+ {
+  "iid": "S019_state_false_10",
+  "snapshot_id": "S019",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-8 is idle and can be shut down."
+ },
+ {
+  "iid": "S019_absence_correct_11",
+  "snapshot_id": "S019",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-15 is not present in the telemetry."
+ },
+ {
+  "iid": "S019_absence_false_12",
+  "snapshot_id": "S019",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-8 is not present in the telemetry."
+ },
+ {
+  "iid": "S019_qualitative_false_13",
+  "snapshot_id": "S019",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-7 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S019_no_claim_14",
+  "snapshot_id": "S019",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-7 looks healthy and needs no action."
+ },
+ {
+  "iid": "S020_correct_single_0",
+  "snapshot_id": "S020",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "GPU utilization on Node-5 is 111%."
+ },
+ {
+  "iid": "S020_correct_single_1",
+  "snapshot_id": "S020",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-5 is using 15.2 GB of GPU memory."
+ },
+ {
+  "iid": "S020_correct_multi_2",
+  "snapshot_id": "S020",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "Node-5 is at 111.3% GPU utilization. Node-5 had 0 failed instances in the last hour."
+ },
+ {
+  "iid": "S020_value_small_3",
+  "snapshot_id": "S020",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-8 is at 3.0% GPU utilization."
+ },
+ {
+  "iid": "S020_value_large_4",
+  "snapshot_id": "S020",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "There are 24 instances running on Node-5."
+ },
+ {
+  "iid": "S020_metric_swap_5",
+  "snapshot_id": "S020",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-6 is using 88.0 GB of GPU memory."
+ },
+ {
+  "iid": "S020_node_swap_6",
+  "snapshot_id": "S020",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-2 has 4 running instances."
+ },
+ {
+  "iid": "S020_fabricated_node_7",
+  "snapshot_id": "S020",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-19 shows a GPU utilization of 0%."
+ },
+ {
+  "iid": "S020_extra_fabricated_8",
+  "snapshot_id": "S020",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "Node-4 has 5 running instances. Node-4 shows a GPU utilization of 21.6%."
+ },
+ {
+  "iid": "S020_state_correct_9",
+  "snapshot_id": "S020",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-3 is idle."
+ },
+ {
+  "iid": "S020_state_false_10",
+  "snapshot_id": "S020",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-7 is idle and can be shut down."
+ },
+ {
+  "iid": "S020_absence_correct_11",
+  "snapshot_id": "S020",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-19 is not present in the telemetry."
+ },
+ {
+  "iid": "S020_absence_false_12",
+  "snapshot_id": "S020",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-7 is not present in the telemetry."
+ },
+ {
+  "iid": "S020_qualitative_false_13",
+  "snapshot_id": "S020",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-3 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S020_no_claim_14",
+  "snapshot_id": "S020",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-1 looks healthy and needs no action."
+ },
+ {
+  "iid": "S021_correct_single_0",
+  "snapshot_id": "S021",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "GPU memory in use on Node-1: 4 GB."
+ },
+ {
+  "iid": "S021_correct_single_1",
+  "snapshot_id": "S021",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "There are 24 instances running on Node-5."
+ },
+ {
+  "iid": "S021_correct_multi_2",
+  "snapshot_id": "S021",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "There are 24 instances running on Node-5. Node-5 had 0 failed instances in the last hour."
+ },
+ {
+  "iid": "S021_value_small_3",
+  "snapshot_id": "S021",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "GPU memory in use on Node-6: 25.2 GB."
+ },
+ {
+  "iid": "S021_value_large_4",
+  "snapshot_id": "S021",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-2 had 6 failed instances in the last hour."
+ },
+ {
+  "iid": "S021_metric_swap_5",
+  "snapshot_id": "S021",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-5 has 5 running instances."
+ },
+ {
+  "iid": "S021_node_swap_6",
+  "snapshot_id": "S021",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "In the past hour, 17 instances failed on Node-1."
+ },
+ {
+  "iid": "S021_fabricated_node_7",
+  "snapshot_id": "S021",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-11 has 20 running instances."
+ },
+ {
+  "iid": "S021_extra_fabricated_8",
+  "snapshot_id": "S021",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "GPU utilization on Node-4 is 0.0%. Node-4 had 6 failed instances in the last hour."
+ },
+ {
+  "iid": "S021_state_correct_9",
+  "snapshot_id": "S021",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-2 is idle."
+ },
+ {
+  "iid": "S021_state_false_10",
+  "snapshot_id": "S021",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-3 is idle and can be shut down."
+ },
+ {
+  "iid": "S021_absence_correct_11",
+  "snapshot_id": "S021",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-11 is not present in the telemetry."
+ },
+ {
+  "iid": "S021_absence_false_12",
+  "snapshot_id": "S021",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-6 is not present in the telemetry."
+ },
+ {
+  "iid": "S021_qualitative_false_13",
+  "snapshot_id": "S021",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-2 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S021_no_claim_14",
+  "snapshot_id": "S021",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-1 looks healthy and needs no action."
+ },
+ {
+  "iid": "S022_correct_single_0",
+  "snapshot_id": "S022",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "There are 1 instances running on Node-3."
+ },
+ {
+  "iid": "S022_correct_single_1",
+  "snapshot_id": "S022",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "There are 34 instances running on Node-6."
+ },
+ {
+  "iid": "S022_correct_multi_2",
+  "snapshot_id": "S022",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "Node-1 has 0 GB of GPU memory allocated. Node-1 is at 0.0% GPU utilization."
+ },
+ {
+  "iid": "S022_value_small_3",
+  "snapshot_id": "S022",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-3 has 2 running instances."
+ },
+ {
+  "iid": "S022_value_large_4",
+  "snapshot_id": "S022",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "In the past hour, 9 instances failed on Node-3."
+ },
+ {
+  "iid": "S022_metric_swap_5",
+  "snapshot_id": "S022",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-4 has 140.0 GB of GPU memory allocated."
+ },
+ {
+  "iid": "S022_node_swap_6",
+  "snapshot_id": "S022",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "There are 0 instances running on Node-6."
+ },
+ {
+  "iid": "S022_fabricated_node_7",
+  "snapshot_id": "S022",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-11 shows a GPU utilization of 85.4%."
+ },
+ {
+  "iid": "S022_extra_fabricated_8",
+  "snapshot_id": "S022",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "Node-6 shows a GPU utilization of 85.4%. In the past hour, 7 instances failed on Node-6."
+ },
+ {
+  "iid": "S022_state_correct_9",
+  "snapshot_id": "S022",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-2 is idle."
+ },
+ {
+  "iid": "S022_state_false_10",
+  "snapshot_id": "S022",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-6 is idle and can be shut down."
+ },
+ {
+  "iid": "S022_absence_correct_11",
+  "snapshot_id": "S022",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-11 is not present in the telemetry."
+ },
+ {
+  "iid": "S022_absence_false_12",
+  "snapshot_id": "S022",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-7 is not present in the telemetry."
+ },
+ {
+  "iid": "S022_qualitative_false_13",
+  "snapshot_id": "S022",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-5 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S022_no_claim_14",
+  "snapshot_id": "S022",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-4 looks healthy and needs no action."
+ },
+ {
+  "iid": "S023_correct_single_0",
+  "snapshot_id": "S023",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-1 has 12 running instances."
+ },
+ {
+  "iid": "S023_correct_single_1",
+  "snapshot_id": "S023",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-5 is using 0.0 GB of GPU memory."
+ },
+ {
+  "iid": "S023_correct_multi_2",
+  "snapshot_id": "S023",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "GPU utilization on Node-3 is 0.0%. Node-3 has 0 running instances."
+ },
+ {
+  "iid": "S023_value_small_3",
+  "snapshot_id": "S023",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "GPU memory in use on Node-6: 3.0 GB."
+ },
+ {
+  "iid": "S023_value_large_4",
+  "snapshot_id": "S023",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-7 had 134 failed instances in the last hour."
+ },
+ {
+  "iid": "S023_metric_swap_5",
+  "snapshot_id": "S023",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "There are 0 instances running on Node-1."
+ },
+ {
+  "iid": "S023_node_swap_6",
+  "snapshot_id": "S023",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-6 has 42 running instances."
+ },
+ {
+  "iid": "S023_fabricated_node_7",
+  "snapshot_id": "S023",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "GPU utilization on Node-16 is 56.6%."
+ },
+ {
+  "iid": "S023_extra_fabricated_8",
+  "snapshot_id": "S023",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "GPU utilization on Node-5 is 0.0%. Node-5 is running 13 jobs."
+ },
+ {
+  "iid": "S023_state_correct_9",
+  "snapshot_id": "S023",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-3 is idle."
+ },
+ {
+  "iid": "S023_state_false_10",
+  "snapshot_id": "S023",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-7 is idle and can be shut down."
+ },
+ {
+  "iid": "S023_absence_correct_11",
+  "snapshot_id": "S023",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-16 is not present in the telemetry."
+ },
+ {
+  "iid": "S023_absence_false_12",
+  "snapshot_id": "S023",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-8 is not present in the telemetry."
+ },
+ {
+  "iid": "S023_qualitative_false_13",
+  "snapshot_id": "S023",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-6 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S023_no_claim_14",
+  "snapshot_id": "S023",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-2 looks healthy and needs no action."
+ },
+ {
+  "iid": "S024_correct_single_0",
+  "snapshot_id": "S024",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "GPU utilization on Node-3 is 0%."
+ },
+ {
+  "iid": "S024_correct_single_1",
+  "snapshot_id": "S024",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-6 had 0 failed instances in the last hour."
+ },
+ {
+  "iid": "S024_correct_multi_2",
+  "snapshot_id": "S024",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "Node-4 is running 0 jobs. Node-4 shows a GPU utilization of 0%."
+ },
+ {
+  "iid": "S024_value_small_3",
+  "snapshot_id": "S024",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-6 has 26 running instances."
+ },
+ {
+  "iid": "S024_value_large_4",
+  "snapshot_id": "S024",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-1 has 3 running instances."
+ },
+ {
+  "iid": "S024_metric_swap_5",
+  "snapshot_id": "S024",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-6 is at 27.0% GPU utilization."
+ },
+ {
+  "iid": "S024_node_swap_6",
+  "snapshot_id": "S024",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "There are 3 instances running on Node-8."
+ },
+ {
+  "iid": "S024_fabricated_node_7",
+  "snapshot_id": "S024",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-16 had 0 failed instances in the last hour."
+ },
+ {
+  "iid": "S024_extra_fabricated_8",
+  "snapshot_id": "S024",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "GPU utilization on Node-3 is 0%. Node-3 is using 20.0 GB of GPU memory."
+ },
+ {
+  "iid": "S024_state_correct_9",
+  "snapshot_id": "S024",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-1 is idle."
+ },
+ {
+  "iid": "S024_state_false_10",
+  "snapshot_id": "S024",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-5 is idle and can be shut down."
+ },
+ {
+  "iid": "S024_absence_correct_11",
+  "snapshot_id": "S024",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-16 is not present in the telemetry."
+ },
+ {
+  "iid": "S024_absence_false_12",
+  "snapshot_id": "S024",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-8 is not present in the telemetry."
+ },
+ {
+  "iid": "S024_qualitative_false_13",
+  "snapshot_id": "S024",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-4 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S024_no_claim_14",
+  "snapshot_id": "S024",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-7 looks healthy and needs no action."
+ },
+ {
+  "iid": "S025_correct_single_0",
+  "snapshot_id": "S025",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "GPU memory in use on Node-6: 9.6 GB."
+ },
+ {
+  "iid": "S025_correct_single_1",
+  "snapshot_id": "S025",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-1 is using 0 GB of GPU memory."
+ },
+ {
+  "iid": "S025_correct_multi_2",
+  "snapshot_id": "S025",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "GPU memory in use on Node-8: 0.0 GB. Node-8 is at 0.0% GPU utilization."
+ },
+ {
+  "iid": "S025_value_small_3",
+  "snapshot_id": "S025",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "In the past hour, 2 instances failed on Node-4."
+ },
+ {
+  "iid": "S025_value_large_4",
+  "snapshot_id": "S025",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "In the past hour, 9 instances failed on Node-7."
+ },
+ {
+  "iid": "S025_metric_swap_5",
+  "snapshot_id": "S025",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-5 has 132 running instances."
+ },
+ {
+  "iid": "S025_node_swap_6",
+  "snapshot_id": "S025",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-7 is running 25 jobs."
+ },
+ {
+  "iid": "S025_fabricated_node_7",
+  "snapshot_id": "S025",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-19 has 21 running instances."
+ },
+ {
+  "iid": "S025_extra_fabricated_8",
+  "snapshot_id": "S025",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "In the past hour, 0 instances failed on Node-8. GPU utilization on Node-8 is 20.0%."
+ },
+ {
+  "iid": "S025_state_correct_9",
+  "snapshot_id": "S025",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-7 is idle."
+ },
+ {
+  "iid": "S025_state_false_10",
+  "snapshot_id": "S025",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-6 is idle and can be shut down."
+ },
+ {
+  "iid": "S025_absence_correct_11",
+  "snapshot_id": "S025",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-19 is not present in the telemetry."
+ },
+ {
+  "iid": "S025_absence_false_12",
+  "snapshot_id": "S025",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-3 is not present in the telemetry."
+ },
+ {
+  "iid": "S025_qualitative_false_13",
+  "snapshot_id": "S025",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-7 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S025_no_claim_14",
+  "snapshot_id": "S025",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-4 looks healthy and needs no action."
+ },
+ {
+  "iid": "S026_correct_single_0",
+  "snapshot_id": "S026",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "GPU memory in use on Node-7: 15.3 GB."
+ },
+ {
+  "iid": "S026_correct_single_1",
+  "snapshot_id": "S026",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "GPU utilization on Node-7 is 157.0%."
+ },
+ {
+  "iid": "S026_correct_multi_2",
+  "snapshot_id": "S026",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "Node-2 has 14 GB of GPU memory allocated. Node-2 has 35 running instances."
+ },
+ {
+  "iid": "S026_value_small_3",
+  "snapshot_id": "S026",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-1 has 26 running instances."
+ },
+ {
+  "iid": "S026_value_large_4",
+  "snapshot_id": "S026",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "In the past hour, 8 instances failed on Node-6."
+ },
+ {
+  "iid": "S026_metric_swap_5",
+  "snapshot_id": "S026",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "GPU utilization on Node-3 is 20.0%."
+ },
+ {
+  "iid": "S026_node_swap_6",
+  "snapshot_id": "S026",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-3 is at 0.0% GPU utilization."
+ },
+ {
+  "iid": "S026_fabricated_node_7",
+  "snapshot_id": "S026",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "In the past hour, 0 instances failed on Node-17."
+ },
+ {
+  "iid": "S026_extra_fabricated_8",
+  "snapshot_id": "S026",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "GPU utilization on Node-2 is 122.7%. Node-2 has 49.0 GB of GPU memory allocated."
+ },
+ {
+  "iid": "S026_state_correct_9",
+  "snapshot_id": "S026",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-5 is idle."
+ },
+ {
+  "iid": "S026_state_false_10",
+  "snapshot_id": "S026",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-3 is idle and can be shut down."
+ },
+ {
+  "iid": "S026_absence_correct_11",
+  "snapshot_id": "S026",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-17 is not present in the telemetry."
+ },
+ {
+  "iid": "S026_absence_false_12",
+  "snapshot_id": "S026",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-6 is not present in the telemetry."
+ },
+ {
+  "iid": "S026_qualitative_false_13",
+  "snapshot_id": "S026",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-5 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S026_no_claim_14",
+  "snapshot_id": "S026",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-8 looks healthy and needs no action."
+ },
+ {
+  "iid": "S027_correct_single_0",
+  "snapshot_id": "S027",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-7 had 0 failed instances in the last hour."
+ },
+ {
+  "iid": "S027_correct_single_1",
+  "snapshot_id": "S027",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "GPU memory in use on Node-3: 5 GB."
+ },
+ {
+  "iid": "S027_correct_multi_2",
+  "snapshot_id": "S027",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "There are 0 instances running on Node-4. GPU utilization on Node-4 is 0%."
+ },
+ {
+  "iid": "S027_value_small_3",
+  "snapshot_id": "S027",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-2 is running 11 jobs."
+ },
+ {
+  "iid": "S027_value_large_4",
+  "snapshot_id": "S027",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-6 has 4 running instances."
+ },
+ {
+  "iid": "S027_metric_swap_5",
+  "snapshot_id": "S027",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-3 is running 4 jobs."
+ },
+ {
+  "iid": "S027_node_swap_6",
+  "snapshot_id": "S027",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-4 had 57 failed instances in the last hour."
+ },
+ {
+  "iid": "S027_fabricated_node_7",
+  "snapshot_id": "S027",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "GPU memory in use on Node-19: 0 GB."
+ },
+ {
+  "iid": "S027_extra_fabricated_8",
+  "snapshot_id": "S027",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "Node-2 had 6 failed instances in the last hour. GPU memory in use on Node-2: 20.0 GB."
+ },
+ {
+  "iid": "S027_state_correct_9",
+  "snapshot_id": "S027",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-6 is idle."
+ },
+ {
+  "iid": "S027_state_false_10",
+  "snapshot_id": "S027",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-8 is idle and can be shut down."
+ },
+ {
+  "iid": "S027_absence_correct_11",
+  "snapshot_id": "S027",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-19 is not present in the telemetry."
+ },
+ {
+  "iid": "S027_absence_false_12",
+  "snapshot_id": "S027",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-5 is not present in the telemetry."
+ },
+ {
+  "iid": "S027_qualitative_false_13",
+  "snapshot_id": "S027",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-4 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S027_no_claim_14",
+  "snapshot_id": "S027",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-3 looks healthy and needs no action."
+ },
+ {
+  "iid": "S028_correct_single_0",
+  "snapshot_id": "S028",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "There are 26 instances running on Node-3."
+ },
+ {
+  "iid": "S028_correct_single_1",
+  "snapshot_id": "S028",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "In the past hour, 0 instances failed on Node-5."
+ },
+ {
+  "iid": "S028_correct_multi_2",
+  "snapshot_id": "S028",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "GPU memory in use on Node-5: 0 GB. Node-5 had 0 failed instances in the last hour."
+ },
+ {
+  "iid": "S028_value_small_3",
+  "snapshot_id": "S028",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-4 had 2 failed instances in the last hour."
+ },
+ {
+  "iid": "S028_value_large_4",
+  "snapshot_id": "S028",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "In the past hour, 4 instances failed on Node-1."
+ },
+ {
+  "iid": "S028_metric_swap_5",
+  "snapshot_id": "S028",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-7 is at 7.0% GPU utilization."
+ },
+ {
+  "iid": "S028_node_swap_6",
+  "snapshot_id": "S028",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-3 has 23.6 GB of GPU memory allocated."
+ },
+ {
+  "iid": "S028_fabricated_node_7",
+  "snapshot_id": "S028",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-14 is running 32 jobs."
+ },
+ {
+  "iid": "S028_extra_fabricated_8",
+  "snapshot_id": "S028",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "GPU memory in use on Node-5: 0.0 GB. Node-5 is running 7 jobs."
+ },
+ {
+  "iid": "S028_state_correct_9",
+  "snapshot_id": "S028",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-6 is idle."
+ },
+ {
+  "iid": "S028_state_false_10",
+  "snapshot_id": "S028",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-3 is idle and can be shut down."
+ },
+ {
+  "iid": "S028_absence_correct_11",
+  "snapshot_id": "S028",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-14 is not present in the telemetry."
+ },
+ {
+  "iid": "S028_absence_false_12",
+  "snapshot_id": "S028",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-2 is not present in the telemetry."
+ },
+ {
+  "iid": "S028_qualitative_false_13",
+  "snapshot_id": "S028",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-5 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S028_no_claim_14",
+  "snapshot_id": "S028",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-3 looks healthy and needs no action."
+ },
+ {
+  "iid": "S029_correct_single_0",
+  "snapshot_id": "S029",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "GPU memory in use on Node-1: 0.0 GB."
+ },
+ {
+  "iid": "S029_correct_single_1",
+  "snapshot_id": "S029",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-3 is at 0.0% GPU utilization."
+ },
+ {
+  "iid": "S029_correct_multi_2",
+  "snapshot_id": "S029",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "In the past hour, 10 instances failed on Node-3. GPU memory in use on Node-3: 0.2 GB."
+ },
+ {
+  "iid": "S029_value_small_3",
+  "snapshot_id": "S029",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-3 had 9 failed instances in the last hour."
+ },
+ {
+  "iid": "S029_value_large_4",
+  "snapshot_id": "S029",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-3 had 17 failed instances in the last hour."
+ },
+ {
+  "iid": "S029_metric_swap_5",
+  "snapshot_id": "S029",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-2 has 34.0 GB of GPU memory allocated."
+ },
+ {
+  "iid": "S029_node_swap_6",
+  "snapshot_id": "S029",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "There are 0 instances running on Node-2."
+ },
+ {
+  "iid": "S029_fabricated_node_7",
+  "snapshot_id": "S029",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "There are 1 instances running on Node-15."
+ },
+ {
+  "iid": "S029_extra_fabricated_8",
+  "snapshot_id": "S029",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "Node-4 is at 81.5% GPU utilization. Node-4 is using 62.0 GB of GPU memory."
+ },
+ {
+  "iid": "S029_state_correct_9",
+  "snapshot_id": "S029",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-8 is idle."
+ },
+ {
+  "iid": "S029_state_false_10",
+  "snapshot_id": "S029",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-7 is idle and can be shut down."
+ },
+ {
+  "iid": "S029_absence_correct_11",
+  "snapshot_id": "S029",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-15 is not present in the telemetry."
+ },
+ {
+  "iid": "S029_absence_false_12",
+  "snapshot_id": "S029",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-6 is not present in the telemetry."
+ },
+ {
+  "iid": "S029_qualitative_false_13",
+  "snapshot_id": "S029",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-8 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S029_no_claim_14",
+  "snapshot_id": "S029",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-3 looks healthy and needs no action."
+ },
+ {
+  "iid": "S030_correct_single_0",
+  "snapshot_id": "S030",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-8 is at 0% GPU utilization."
+ },
+ {
+  "iid": "S030_correct_single_1",
+  "snapshot_id": "S030",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-2 has 36 running instances."
+ },
+ {
+  "iid": "S030_correct_multi_2",
+  "snapshot_id": "S030",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "There are 36 instances running on Node-2. In the past hour, 1 instances failed on Node-2."
+ },
+ {
+  "iid": "S030_value_small_3",
+  "snapshot_id": "S030",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-4 is running 31 jobs."
+ },
+ {
+  "iid": "S030_value_large_4",
+  "snapshot_id": "S030",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-1 had 13 failed instances in the last hour."
+ },
+ {
+  "iid": "S030_metric_swap_5",
+  "snapshot_id": "S030",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-1 shows a GPU utilization of 13.0%."
+ },
+ {
+  "iid": "S030_node_swap_6",
+  "snapshot_id": "S030",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "GPU memory in use on Node-8: 23.9 GB."
+ },
+ {
+  "iid": "S030_fabricated_node_7",
+  "snapshot_id": "S030",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-12 is at 0% GPU utilization."
+ },
+ {
+  "iid": "S030_extra_fabricated_8",
+  "snapshot_id": "S030",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "Node-3 has 30 running instances. GPU memory in use on Node-3: 67.8 GB."
+ },
+ {
+  "iid": "S030_state_correct_9",
+  "snapshot_id": "S030",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-5 is idle."
+ },
+ {
+  "iid": "S030_state_false_10",
+  "snapshot_id": "S030",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-8 is idle and can be shut down."
+ },
+ {
+  "iid": "S030_absence_correct_11",
+  "snapshot_id": "S030",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-12 is not present in the telemetry."
+ },
+ {
+  "iid": "S030_absence_false_12",
+  "snapshot_id": "S030",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-4 is not present in the telemetry."
+ },
+ {
+  "iid": "S030_qualitative_false_13",
+  "snapshot_id": "S030",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-6 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S030_no_claim_14",
+  "snapshot_id": "S030",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-1 looks healthy and needs no action."
+ },
+ {
+  "iid": "S031_correct_single_0",
+  "snapshot_id": "S031",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-3 had 0 failed instances in the last hour."
+ },
+ {
+  "iid": "S031_correct_single_1",
+  "snapshot_id": "S031",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "In the past hour, 0 instances failed on Node-8."
+ },
+ {
+  "iid": "S031_correct_multi_2",
+  "snapshot_id": "S031",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "Node-6 had 111 failed instances in the last hour. Node-6 is at 0% GPU utilization."
+ },
+ {
+  "iid": "S031_value_small_3",
+  "snapshot_id": "S031",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "GPU utilization on Node-7 is 3.0%."
+ },
+ {
+  "iid": "S031_value_large_4",
+  "snapshot_id": "S031",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "In the past hour, 7 instances failed on Node-7."
+ },
+ {
+  "iid": "S031_metric_swap_5",
+  "snapshot_id": "S031",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "There are 0 instances running on Node-7."
+ },
+ {
+  "iid": "S031_node_swap_6",
+  "snapshot_id": "S031",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-5 had 111 failed instances in the last hour."
+ },
+ {
+  "iid": "S031_fabricated_node_7",
+  "snapshot_id": "S031",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "GPU utilization on Node-14 is 0%."
+ },
+ {
+  "iid": "S031_extra_fabricated_8",
+  "snapshot_id": "S031",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "GPU memory in use on Node-6: 0.0 GB. Node-6 is running 31 jobs."
+ },
+ {
+  "iid": "S031_state_correct_9",
+  "snapshot_id": "S031",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-5 is idle."
+ },
+ {
+  "iid": "S031_state_false_10",
+  "snapshot_id": "S031",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-4 is idle and can be shut down."
+ },
+ {
+  "iid": "S031_absence_correct_11",
+  "snapshot_id": "S031",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-14 is not present in the telemetry."
+ },
+ {
+  "iid": "S031_absence_false_12",
+  "snapshot_id": "S031",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-5 is not present in the telemetry."
+ },
+ {
+  "iid": "S031_qualitative_false_13",
+  "snapshot_id": "S031",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-5 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S031_no_claim_14",
+  "snapshot_id": "S031",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-4 looks healthy and needs no action."
+ },
+ {
+  "iid": "S032_correct_single_0",
+  "snapshot_id": "S032",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-7 is at 163% GPU utilization."
+ },
+ {
+  "iid": "S032_correct_single_1",
+  "snapshot_id": "S032",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-5 had 0 failed instances in the last hour."
+ },
+ {
+  "iid": "S032_correct_multi_2",
+  "snapshot_id": "S032",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "GPU utilization on Node-3 is 88%. Node-3 is running 38 jobs."
+ },
+ {
+  "iid": "S032_value_small_3",
+  "snapshot_id": "S032",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "GPU utilization on Node-8 is 3.0%."
+ },
+ {
+  "iid": "S032_value_large_4",
+  "snapshot_id": "S032",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-2 has 7 running instances."
+ },
+ {
+  "iid": "S032_metric_swap_5",
+  "snapshot_id": "S032",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-4 has 51.7 GB of GPU memory allocated."
+ },
+ {
+  "iid": "S032_node_swap_6",
+  "snapshot_id": "S032",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "GPU utilization on Node-3 is 0.0%."
+ },
+ {
+  "iid": "S032_fabricated_node_7",
+  "snapshot_id": "S032",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-11 is at 51.7% GPU utilization."
+ },
+ {
+  "iid": "S032_extra_fabricated_8",
+  "snapshot_id": "S032",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "GPU memory in use on Node-4: 8 GB. There are 20 instances running on Node-4."
+ },
+ {
+  "iid": "S032_state_correct_9",
+  "snapshot_id": "S032",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-2 is idle."
+ },
+ {
+  "iid": "S032_state_false_10",
+  "snapshot_id": "S032",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-7 is idle and can be shut down."
+ },
+ {
+  "iid": "S032_absence_correct_11",
+  "snapshot_id": "S032",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-11 is not present in the telemetry."
+ },
+ {
+  "iid": "S032_absence_false_12",
+  "snapshot_id": "S032",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-7 is not present in the telemetry."
+ },
+ {
+  "iid": "S032_qualitative_false_13",
+  "snapshot_id": "S032",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-1 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S032_no_claim_14",
+  "snapshot_id": "S032",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-8 looks healthy and needs no action."
+ },
+ {
+  "iid": "S033_correct_single_0",
+  "snapshot_id": "S033",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-4 is running 27 jobs."
+ },
+ {
+  "iid": "S033_correct_single_1",
+  "snapshot_id": "S033",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-7 shows a GPU utilization of 696.8%."
+ },
+ {
+  "iid": "S033_correct_multi_2",
+  "snapshot_id": "S033",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "Node-2 has 8.2 GB of GPU memory allocated. Node-2 is at 41% GPU utilization."
+ },
+ {
+  "iid": "S033_value_small_3",
+  "snapshot_id": "S033",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-4 is at 228.0% GPU utilization."
+ },
+ {
+  "iid": "S033_value_large_4",
+  "snapshot_id": "S033",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-6 is running 11 jobs."
+ },
+ {
+  "iid": "S033_metric_swap_5",
+  "snapshot_id": "S033",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-2 is using 41.3 GB of GPU memory."
+ },
+ {
+  "iid": "S033_node_swap_6",
+  "snapshot_id": "S033",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-6 has 37.9 GB of GPU memory allocated."
+ },
+ {
+  "iid": "S033_fabricated_node_7",
+  "snapshot_id": "S033",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-18 shows a GPU utilization of 0.0%."
+ },
+ {
+  "iid": "S033_extra_fabricated_8",
+  "snapshot_id": "S033",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "Node-8 is at 0% GPU utilization. Node-8 had 6 failed instances in the last hour."
+ },
+ {
+  "iid": "S033_state_correct_9",
+  "snapshot_id": "S033",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-3 is idle."
+ },
+ {
+  "iid": "S033_state_false_10",
+  "snapshot_id": "S033",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-4 is idle and can be shut down."
+ },
+ {
+  "iid": "S033_absence_correct_11",
+  "snapshot_id": "S033",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-18 is not present in the telemetry."
+ },
+ {
+  "iid": "S033_absence_false_12",
+  "snapshot_id": "S033",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-1 is not present in the telemetry."
+ },
+ {
+  "iid": "S033_qualitative_false_13",
+  "snapshot_id": "S033",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-3 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S033_no_claim_14",
+  "snapshot_id": "S033",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-7 looks healthy and needs no action."
+ },
+ {
+  "iid": "S034_correct_single_0",
+  "snapshot_id": "S034",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-8 had 0 failed instances in the last hour."
+ },
+ {
+  "iid": "S034_correct_single_1",
+  "snapshot_id": "S034",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-3 has 13 running instances."
+ },
+ {
+  "iid": "S034_correct_multi_2",
+  "snapshot_id": "S034",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "Node-5 is using 0.0 GB of GPU memory. In the past hour, 0 instances failed on Node-5."
+ },
+ {
+  "iid": "S034_value_small_3",
+  "snapshot_id": "S034",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-6 is at 3.0% GPU utilization."
+ },
+ {
+  "iid": "S034_value_large_4",
+  "snapshot_id": "S034",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "There are 5 instances running on Node-6."
+ },
+ {
+  "iid": "S034_metric_swap_5",
+  "snapshot_id": "S034",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-2 shows a GPU utilization of 36.0%."
+ },
+ {
+  "iid": "S034_node_swap_6",
+  "snapshot_id": "S034",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "GPU utilization on Node-6 is 158.8%."
+ },
+ {
+  "iid": "S034_fabricated_node_7",
+  "snapshot_id": "S034",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-18 had 1 failed instances in the last hour."
+ },
+ {
+  "iid": "S034_extra_fabricated_8",
+  "snapshot_id": "S034",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "GPU memory in use on Node-3: 0 GB. There are 7 instances running on Node-3."
+ },
+ {
+  "iid": "S034_state_correct_9",
+  "snapshot_id": "S034",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-4 is idle."
+ },
+ {
+  "iid": "S034_state_false_10",
+  "snapshot_id": "S034",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-5 is idle and can be shut down."
+ },
+ {
+  "iid": "S034_absence_correct_11",
+  "snapshot_id": "S034",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-18 is not present in the telemetry."
+ },
+ {
+  "iid": "S034_absence_false_12",
+  "snapshot_id": "S034",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-8 is not present in the telemetry."
+ },
+ {
+  "iid": "S034_qualitative_false_13",
+  "snapshot_id": "S034",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-4 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S034_no_claim_14",
+  "snapshot_id": "S034",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-5 looks healthy and needs no action."
+ },
+ {
+  "iid": "S035_correct_single_0",
+  "snapshot_id": "S035",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "GPU memory in use on Node-6: 61.0 GB."
+ },
+ {
+  "iid": "S035_correct_single_1",
+  "snapshot_id": "S035",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "GPU memory in use on Node-4: 1 GB."
+ },
+ {
+  "iid": "S035_correct_multi_2",
+  "snapshot_id": "S035",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "GPU utilization on Node-1 is 70%. Node-1 is running 28 jobs."
+ },
+ {
+  "iid": "S035_value_small_3",
+  "snapshot_id": "S035",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-3 had 50 failed instances in the last hour."
+ },
+ {
+  "iid": "S035_value_large_4",
+  "snapshot_id": "S035",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-8 has 44 running instances."
+ },
+ {
+  "iid": "S035_metric_swap_5",
+  "snapshot_id": "S035",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "GPU utilization on Node-4 is 0.6%."
+ },
+ {
+  "iid": "S035_node_swap_6",
+  "snapshot_id": "S035",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-8 is using 0.0 GB of GPU memory."
+ },
+ {
+  "iid": "S035_fabricated_node_7",
+  "snapshot_id": "S035",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-14 has 38 running instances."
+ },
+ {
+  "iid": "S035_extra_fabricated_8",
+  "snapshot_id": "S035",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "There are 24 instances running on Node-3. GPU memory in use on Node-3: 20.0 GB."
+ },
+ {
+  "iid": "S035_state_correct_9",
+  "snapshot_id": "S035",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-5 is idle."
+ },
+ {
+  "iid": "S035_state_false_10",
+  "snapshot_id": "S035",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-8 is idle and can be shut down."
+ },
+ {
+  "iid": "S035_absence_correct_11",
+  "snapshot_id": "S035",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-14 is not present in the telemetry."
+ },
+ {
+  "iid": "S035_absence_false_12",
+  "snapshot_id": "S035",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-3 is not present in the telemetry."
+ },
+ {
+  "iid": "S035_qualitative_false_13",
+  "snapshot_id": "S035",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-5 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S035_no_claim_14",
+  "snapshot_id": "S035",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-6 looks healthy and needs no action."
+ },
+ {
+  "iid": "S036_correct_single_0",
+  "snapshot_id": "S036",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-4 is at 0.0% GPU utilization."
+ },
+ {
+  "iid": "S036_correct_single_1",
+  "snapshot_id": "S036",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-2 has 6 running instances."
+ },
+ {
+  "iid": "S036_correct_multi_2",
+  "snapshot_id": "S036",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "Node-7 shows a GPU utilization of 0%. In the past hour, 9 instances failed on Node-7."
+ },
+ {
+  "iid": "S036_value_small_3",
+  "snapshot_id": "S036",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "There are 2 instances running on Node-4."
+ },
+ {
+  "iid": "S036_value_large_4",
+  "snapshot_id": "S036",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-8 had 9 failed instances in the last hour."
+ },
+ {
+  "iid": "S036_metric_swap_5",
+  "snapshot_id": "S036",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "There are 79 instances running on Node-8."
+ },
+ {
+  "iid": "S036_node_swap_6",
+  "snapshot_id": "S036",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-3 has 8.1 GB of GPU memory allocated."
+ },
+ {
+  "iid": "S036_fabricated_node_7",
+  "snapshot_id": "S036",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-10 is at 0.0% GPU utilization."
+ },
+ {
+  "iid": "S036_extra_fabricated_8",
+  "snapshot_id": "S036",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "Node-4 has 0 running instances. Node-4 shows a GPU utilization of 20.0%."
+ },
+ {
+  "iid": "S036_state_correct_9",
+  "snapshot_id": "S036",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-3 is idle."
+ },
+ {
+  "iid": "S036_state_false_10",
+  "snapshot_id": "S036",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-2 is idle and can be shut down."
+ },
+ {
+  "iid": "S036_absence_correct_11",
+  "snapshot_id": "S036",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-10 is not present in the telemetry."
+ },
+ {
+  "iid": "S036_absence_false_12",
+  "snapshot_id": "S036",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-3 is not present in the telemetry."
+ },
+ {
+  "iid": "S036_qualitative_false_13",
+  "snapshot_id": "S036",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-3 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S036_no_claim_14",
+  "snapshot_id": "S036",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-8 looks healthy and needs no action."
+ },
+ {
+  "iid": "S037_correct_single_0",
+  "snapshot_id": "S037",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-7 is using 10 GB of GPU memory."
+ },
+ {
+  "iid": "S037_correct_single_1",
+  "snapshot_id": "S037",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "In the past hour, 0 instances failed on Node-1."
+ },
+ {
+  "iid": "S037_correct_multi_2",
+  "snapshot_id": "S037",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "Node-5 had 1 failed instances in the last hour. Node-5 is running 13 jobs."
+ },
+ {
+  "iid": "S037_value_small_3",
+  "snapshot_id": "S037",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-3 shows a GPU utilization of 3.0%."
+ },
+ {
+  "iid": "S037_value_large_4",
+  "snapshot_id": "S037",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-6 has 52 running instances."
+ },
+ {
+  "iid": "S037_metric_swap_5",
+  "snapshot_id": "S037",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-1 has 60.1 GB of GPU memory allocated."
+ },
+ {
+  "iid": "S037_node_swap_6",
+  "snapshot_id": "S037",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "GPU memory in use on Node-3: 9.5 GB."
+ },
+ {
+  "iid": "S037_fabricated_node_7",
+  "snapshot_id": "S037",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-10 is using 0.0 GB of GPU memory."
+ },
+ {
+  "iid": "S037_extra_fabricated_8",
+  "snapshot_id": "S037",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "Node-3 is at 0% GPU utilization. Node-3 is using 20.0 GB of GPU memory."
+ },
+ {
+  "iid": "S037_state_correct_9",
+  "snapshot_id": "S037",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-4 is idle."
+ },
+ {
+  "iid": "S037_state_false_10",
+  "snapshot_id": "S037",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-3 is idle and can be shut down."
+ },
+ {
+  "iid": "S037_absence_correct_11",
+  "snapshot_id": "S037",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-10 is not present in the telemetry."
+ },
+ {
+  "iid": "S037_absence_false_12",
+  "snapshot_id": "S037",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-6 is not present in the telemetry."
+ },
+ {
+  "iid": "S037_qualitative_false_13",
+  "snapshot_id": "S037",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-4 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S037_no_claim_14",
+  "snapshot_id": "S037",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-5 looks healthy and needs no action."
+ },
+ {
+  "iid": "S038_correct_single_0",
+  "snapshot_id": "S038",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-5 shows a GPU utilization of 0%."
+ },
+ {
+  "iid": "S038_correct_single_1",
+  "snapshot_id": "S038",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-2 is at 0% GPU utilization."
+ },
+ {
+  "iid": "S038_correct_multi_2",
+  "snapshot_id": "S038",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "Node-3 has 36.3 GB of GPU memory allocated. Node-3 is at 144% GPU utilization."
+ },
+ {
+  "iid": "S038_value_small_3",
+  "snapshot_id": "S038",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "Node-1 is using 31.8 GB of GPU memory."
+ },
+ {
+  "iid": "S038_value_large_4",
+  "snapshot_id": "S038",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "Node-2 is at 20.0% GPU utilization."
+ },
+ {
+  "iid": "S038_metric_swap_5",
+  "snapshot_id": "S038",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-7 has 0 running instances."
+ },
+ {
+  "iid": "S038_node_swap_6",
+  "snapshot_id": "S038",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "In the past hour, 28 instances failed on Node-3."
+ },
+ {
+  "iid": "S038_fabricated_node_7",
+  "snapshot_id": "S038",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "Node-12 had 0 failed instances in the last hour."
+ },
+ {
+  "iid": "S038_extra_fabricated_8",
+  "snapshot_id": "S038",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "Node-2 is at 0.0% GPU utilization. GPU memory in use on Node-2: 20.0 GB."
+ },
+ {
+  "iid": "S038_state_correct_9",
+  "snapshot_id": "S038",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-4 is idle."
+ },
+ {
+  "iid": "S038_state_false_10",
+  "snapshot_id": "S038",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-7 is idle and can be shut down."
+ },
+ {
+  "iid": "S038_absence_correct_11",
+  "snapshot_id": "S038",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-12 is not present in the telemetry."
+ },
+ {
+  "iid": "S038_absence_false_12",
+  "snapshot_id": "S038",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-4 is not present in the telemetry."
+ },
+ {
+  "iid": "S038_qualitative_false_13",
+  "snapshot_id": "S038",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-6 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S038_no_claim_14",
+  "snapshot_id": "S038",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-4 looks healthy and needs no action."
+ },
+ {
+  "iid": "S039_correct_single_0",
+  "snapshot_id": "S039",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-4 is using 0 GB of GPU memory."
+ },
+ {
+  "iid": "S039_correct_single_1",
+  "snapshot_id": "S039",
+  "category": "correct_single",
+  "label": "supported",
+  "answer": "Node-2 is at 0% GPU utilization."
+ },
+ {
+  "iid": "S039_correct_multi_2",
+  "snapshot_id": "S039",
+  "category": "correct_multi",
+  "label": "supported",
+  "answer": "Node-1 shows a GPU utilization of 0.0%. GPU memory in use on Node-1: 0.2 GB."
+ },
+ {
+  "iid": "S039_value_small_3",
+  "snapshot_id": "S039",
+  "category": "value_small",
+  "label": "unsupported",
+  "answer": "There are 2 instances running on Node-2."
+ },
+ {
+  "iid": "S039_value_large_4",
+  "snapshot_id": "S039",
+  "category": "value_large",
+  "label": "unsupported",
+  "answer": "In the past hour, 3 instances failed on Node-1."
+ },
+ {
+  "iid": "S039_metric_swap_5",
+  "snapshot_id": "S039",
+  "category": "metric_swap",
+  "label": "unsupported",
+  "answer": "Node-5 is using 77.0 GB of GPU memory."
+ },
+ {
+  "iid": "S039_node_swap_6",
+  "snapshot_id": "S039",
+  "category": "node_swap",
+  "label": "unsupported",
+  "answer": "Node-6 is using 0.0 GB of GPU memory."
+ },
+ {
+  "iid": "S039_fabricated_node_7",
+  "snapshot_id": "S039",
+  "category": "fabricated_node",
+  "label": "unsupported",
+  "answer": "GPU memory in use on Node-16: 51.2 GB."
+ },
+ {
+  "iid": "S039_extra_fabricated_8",
+  "snapshot_id": "S039",
+  "category": "extra_fabricated",
+  "label": "unsupported",
+  "answer": "Node-5 had 0 failed instances in the last hour. Node-5 is running 73 jobs."
+ },
+ {
+  "iid": "S039_state_correct_9",
+  "snapshot_id": "S039",
+  "category": "state_correct",
+  "label": "supported",
+  "answer": "Node-4 is idle."
+ },
+ {
+  "iid": "S039_state_false_10",
+  "snapshot_id": "S039",
+  "category": "state_false",
+  "label": "unsupported",
+  "answer": "Node-1 is idle and can be shut down."
+ },
+ {
+  "iid": "S039_absence_correct_11",
+  "snapshot_id": "S039",
+  "category": "absence_correct",
+  "label": "supported",
+  "answer": "Node-16 is not present in the telemetry."
+ },
+ {
+  "iid": "S039_absence_false_12",
+  "snapshot_id": "S039",
+  "category": "absence_false",
+  "label": "unsupported",
+  "answer": "Node-6 is not present in the telemetry."
+ },
+ {
+  "iid": "S039_qualitative_false_13",
+  "snapshot_id": "S039",
+  "category": "qualitative_false",
+  "label": "unsupported",
+  "answer": "Node-2 is overloaded and close to failing, with 0.0% GPU utilization."
+ },
+ {
+  "iid": "S039_no_claim_14",
+  "snapshot_id": "S039",
+  "category": "no_claim",
+  "label": null,
+  "answer": "Node-2 looks healthy and needs no action."
+ }
+]

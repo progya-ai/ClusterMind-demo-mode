@@ -1,0 +1,14 @@
+{
+ "llama1b_full_contract": {
+  "prefreeze_v1s_cov": 0.3385416666666667,
+  "prefreeze_v1s_acc": 0.6553846153846153,
+  "final_v1s_cov": 0.3885416666666667,
+  "final_v1s_acc": 0.6675603217158177
+ },
+ "qwen1.5b_full_contract": {
+  "prefreeze_v1s_cov": 0.6895833333333333,
+  "prefreeze_v1s_acc": 0.7145015105740181,
+  "final_v1s_cov": 0.7510416666666667,
+  "final_v1s_acc": 0.7267683772538142
+ }
+}

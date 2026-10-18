@@ -1,0 +1,12 @@
+\begin{tabular}{lrrrr}
+\toprule
+Variant (on v1s) & Controlled F1 & Controlled FPR & Real cov. & Real del.\ acc. \\
+\midrule
+v1s (default $\epsilon$) & 0.94 & 0.00 & 57.0 & 70.7 \\
+$\epsilon=0$ (rounding rule only) & 0.94 & 0.00 & 56.9 & 70.6 \\
+$\epsilon\times5$ & 0.93 & 0.00 & 57.0 & 70.7 \\
+unbound numbers rejected & 0.94 & 0.00 & 56.3 & 70.3 \\
+no masking of node ids/timestamps & 0.78 & 0.98 & 3.0 & 60.3 \\
+deliver \textsc{unverifiable} answers & -- & -- & 57.9 & 69.8 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,29 @@
+Node-1 at t=3086090s: running instances 0, GPU utilization 0.0% (100% = one GPU), GPU memory 0.0 GB, failed instances in last hour 0 — idle.
+Node-2 at t=3086090s: running instances 16, GPU utilization 113.2% (100% = one GPU), GPU memory 22.6 GB, failed instances in last hour 0 — busy.
+Node-3 at t=3086090s: running instances 19, GPU utilization 0.0% (100% = one GPU), GPU memory 0.0 GB, failed instances in last hour 0 — busy.
+Node-4 at t=3086090s: running instances 16, GPU utilization 72.6% (100% = one GPU), GPU memory 4.6 GB, failed instances in last hour 0 — busy.
+Node-5 at t=3086090s: running instances 1, GPU utilization 0.0% (100% = one GPU), GPU memory 0.0 GB, failed instances in last hour 0 — busy.
+Node-6 at t=3086090s: running instances 2, GPU utilization 123.0% (100% = one GPU), GPU memory 13.7 GB, failed instances in last hour 0 — busy.
+Node-7 at t=3086090s: running instances 0, GPU utilization 0.0% (100% = one GPU), GPU memory 0.0 GB, failed instances in last hour 0 — idle.
+Node-8 at t=3086090s: running instances 0, GPU utilization 0.0% (100% = one GPU), GPU memory 0.0 GB, failed instances in last hour 0 — idle. 
+
+Q: Is Node-1 busy?
+A: Node-1 looks fine.
+   v0 (prototype): supported     v2 (new checker): unsupported
+
+Q: What is the GPU utilization of Node-2?
+A: Node-2 has 113.2% GPU utilization.
+   v0 (prototype): supported     v2 (new checker): supported
+
+Q: What is the GPU utilization of Node-2?
+A: Node-2 has 113.2% GPU utilization and 90 GB of GPU memory.
+   v0 (prototype): supported     v2 (new checker): unsupported
+
+Q: Which node is busiest?
+A: Node-4 is the busiest node with 0.0% GPU utilization.
+   v0 (prototype): supported     v2 (new checker): unsupported
+
+Q: What is the GPU utilization of Node-15?
+A: Node-15 is not present in the telemetry.
+   v0 (prototype): unsupported   v2 (new checker): supported
+

@@ -1,0 +1,2802 @@
+[
+ {
+  "snapshot_id": "S000",
+  "t": 2702883,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "0bee6bc4ee16de0f1fd508f1",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "1dd738936365aa420b44dba1",
+    "running_instances": 21,
+    "gpu_util_pct": 96.2,
+    "gpu_mem_gb": 3.8,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "294dc19e3369eede733d3c6c",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "1c712a6c3a8d515440aac9fc",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "1d8ba7afd528f5584982e05b",
+    "running_instances": 21,
+    "gpu_util_pct": 5.4,
+    "gpu_mem_gb": 4.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "0f8750b51558f4ad8e116fbc",
+    "running_instances": 4,
+    "gpu_util_pct": 602.4,
+    "gpu_mem_gb": 53.9,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "151fb841dadcef6f2780e077",
+    "running_instances": 8,
+    "gpu_util_pct": 0.5,
+    "gpu_mem_gb": 0.2,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "2cb30ff4df6701143e0af3a0",
+    "running_instances": 12,
+    "gpu_util_pct": 113.5,
+    "gpu_mem_gb": 4.1,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S001",
+  "t": 2728415,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "120ae6e2cca223c2d1dea59d",
+    "running_instances": 1,
+    "gpu_util_pct": 96.8,
+    "gpu_mem_gb": 8.3,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "08d3eb6f770ee894d5d66ffc",
+    "running_instances": 18,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "11de7dca12bc2f66efff313b",
+    "running_instances": 20,
+    "gpu_util_pct": 54.7,
+    "gpu_mem_gb": 8.3,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "0a77ce47d2dc5f1a13fa9075",
+    "running_instances": 16,
+    "gpu_util_pct": 126.8,
+    "gpu_mem_gb": 18.2,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "1becd8e6f66c4a482a802e5b",
+    "running_instances": 17,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "24b8eea3750a7a7fdd2eec9d",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "06f4eec424102d4a3e3af417",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "2e631837c0d5c356b97ab59c",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S002",
+  "t": 2827660,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "285e9375e2a0eadbb6410fbc",
+    "running_instances": 6,
+    "gpu_util_pct": 123.3,
+    "gpu_mem_gb": 10.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "0aedbe3e3045982a0722b6a2",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "165261853e188ca69c4fbcdf",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "274faea7c2b83356d5de3b77",
+    "running_instances": 2,
+    "gpu_util_pct": 54.7,
+    "gpu_mem_gb": 15.8,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "055e994719172b7961fe1d8f",
+    "running_instances": 19,
+    "gpu_util_pct": 89.7,
+    "gpu_mem_gb": 12.9,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "16663bec927b4d9127dd63e2",
+    "running_instances": 23,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 1
+   },
+   {
+    "node": "Node-7",
+    "machine": "00f9363113ba9133ebc9299e",
+    "running_instances": 2,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "1380054ea7f2b0620cb29a6d",
+    "running_instances": 2,
+    "gpu_util_pct": 7.8,
+    "gpu_mem_gb": 13.8,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S003",
+  "t": 3086090,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "171aa25237b0956387f8872f",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "2cb30ff4df6701143e0af3a0",
+    "running_instances": 16,
+    "gpu_util_pct": 113.2,
+    "gpu_mem_gb": 22.6,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "21ab905f11f54e2174e94d68",
+    "running_instances": 19,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "2a8567b74e3fec852d71937a",
+    "running_instances": 16,
+    "gpu_util_pct": 72.6,
+    "gpu_mem_gb": 4.6,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "0018d759f400ef5c0457ab9c",
+    "running_instances": 1,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "11e300d1902215153f16e653",
+    "running_instances": 2,
+    "gpu_util_pct": 123.0,
+    "gpu_mem_gb": 13.7,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "29e05ae21a6223af911e8c0d",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "0c1a49e447a8b623d8d5fe04",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S004",
+  "t": 3385915,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "0f2d49690f515de887eda46e",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "1276c88236bd5b94e9d0021a",
+    "running_instances": 32,
+    "gpu_util_pct": 90.0,
+    "gpu_mem_gb": 13.8,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "21e0f14b15953f9ff9053f5a",
+    "running_instances": 24,
+    "gpu_util_pct": 56.8,
+    "gpu_mem_gb": 10.2,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "19b8cacc9bd1de5e70c029a2",
+    "running_instances": 6,
+    "gpu_util_pct": 9.0,
+    "gpu_mem_gb": 0.4,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "094548706647e38b78dec044",
+    "running_instances": 26,
+    "gpu_util_pct": 15.3,
+    "gpu_mem_gb": 1.3,
+    "failed_last_hour": 2
+   },
+   {
+    "node": "Node-6",
+    "machine": "20a6536969b98f91dee5063f",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "1888bc5382479bb457f29b2d",
+    "running_instances": 31,
+    "gpu_util_pct": 0.4,
+    "gpu_mem_gb": 2.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "13a4efc26b21f0789828024e",
+    "running_instances": 10,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 6
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S005",
+  "t": 3399505,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "2a80f79a43f396db96c97841",
+    "running_instances": 27,
+    "gpu_util_pct": 0.6,
+    "gpu_mem_gb": 1.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "08dc070dba72de8ea324d127",
+    "running_instances": 18,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 1
+   },
+   {
+    "node": "Node-3",
+    "machine": "14c1d6a040a33046698786e1",
+    "running_instances": 25,
+    "gpu_util_pct": 59.0,
+    "gpu_mem_gb": 17.8,
+    "failed_last_hour": 8
+   },
+   {
+    "node": "Node-4",
+    "machine": "2d87ed7f452cd00fe37345f1",
+    "running_instances": 21,
+    "gpu_util_pct": 79.8,
+    "gpu_mem_gb": 8.5,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "10b0f0f8e34cd510e51ca8bb",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "1bc71d5d2815b5bcd3f643a3",
+    "running_instances": 18,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "2b8c83862a4bd55f90593014",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "101ecbca4c891a23b7d22565",
+    "running_instances": 18,
+    "gpu_util_pct": 169.1,
+    "gpu_mem_gb": 33.2,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S006",
+  "t": 3433541,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "1f46b05a79d06eb6019e5022",
+    "running_instances": 18,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "213be74251f51ea9b498b019",
+    "running_instances": 6,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "20a6536969b98f91dee5063f",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "2cb30ff4df6701143e0af3a0",
+    "running_instances": 22,
+    "gpu_util_pct": 72.5,
+    "gpu_mem_gb": 11.1,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "280991ef82900b4e9c0741b8",
+    "running_instances": 12,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 1
+   },
+   {
+    "node": "Node-6",
+    "machine": "17185cff7bebe7ba968b480c",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "1cd12036707dcd282a55dfa7",
+    "running_instances": 28,
+    "gpu_util_pct": 136.5,
+    "gpu_mem_gb": 17.8,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "0915f523b0135f175663c26a",
+    "running_instances": 7,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S007",
+  "t": 3557838,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 15,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 127
+   },
+   {
+    "node": "Node-2",
+    "machine": "0c8fa5d18e24b80cad5bff99",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "21819c550ee76d3426019b90",
+    "running_instances": 17,
+    "gpu_util_pct": 7.2,
+    "gpu_mem_gb": 21.1,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "278605b97df8ae91599bf53b",
+    "running_instances": 27,
+    "gpu_util_pct": 84.9,
+    "gpu_mem_gb": 24.2,
+    "failed_last_hour": 2
+   },
+   {
+    "node": "Node-5",
+    "machine": "0a6a013071feb8c0d4f4d8f6",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "2b8c83862a4bd55f90593014",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "12bcc4fceea93a30d7d0f324",
+    "running_instances": 27,
+    "gpu_util_pct": 65.4,
+    "gpu_mem_gb": 19.2,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "06687be9af284a7dc17080a5",
+    "running_instances": 29,
+    "gpu_util_pct": 87.0,
+    "gpu_mem_gb": 12.5,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S008",
+  "t": 3654735,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "263a597058a7aa0b09062fa7",
+    "running_instances": 17,
+    "gpu_util_pct": 3.6,
+    "gpu_mem_gb": 8.6,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "20b374436086afdff5e9041b",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "263b2d0ccd84f09a89b6676c",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "1fce4f46b813d28cbccbfbc3",
+    "running_instances": 24,
+    "gpu_util_pct": 23.6,
+    "gpu_mem_gb": 4.6,
+    "failed_last_hour": 2
+   },
+   {
+    "node": "Node-5",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 20,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 130
+   },
+   {
+    "node": "Node-6",
+    "machine": "151fb841dadcef6f2780e077",
+    "running_instances": 5,
+    "gpu_util_pct": 103.5,
+    "gpu_mem_gb": 5.9,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "12c436579452f7f3ac1e9a7d",
+    "running_instances": 29,
+    "gpu_util_pct": 87.0,
+    "gpu_mem_gb": 11.6,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "284b22a4e7d271b8de186260",
+    "running_instances": 1,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S009",
+  "t": 3654884,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "22db4bd3b96e67bf4da4b7b3",
+    "running_instances": 35,
+    "gpu_util_pct": 69.8,
+    "gpu_mem_gb": 22.3,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 20,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 136
+   },
+   {
+    "node": "Node-3",
+    "machine": "20b374436086afdff5e9041b",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "2830734b042aa2218348ce64",
+    "running_instances": 23,
+    "gpu_util_pct": 90.0,
+    "gpu_mem_gb": 9.5,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "07a6772e2828f6b48a24030d",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "2bff681c35aa5a419e47e7f5",
+    "running_instances": 27,
+    "gpu_util_pct": 2.7,
+    "gpu_mem_gb": 2.8,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "12293bcbb049bbfcbd9b4763",
+    "running_instances": 30,
+    "gpu_util_pct": 78.2,
+    "gpu_mem_gb": 21.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "1fce4f46b813d28cbccbfbc3",
+    "running_instances": 24,
+    "gpu_util_pct": 23.6,
+    "gpu_mem_gb": 4.6,
+    "failed_last_hour": 2
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S010",
+  "t": 3755291,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "145ed73fd61c2a9e72eafeb7",
+    "running_instances": 26,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "1465a37f156f80e0687d8fff",
+    "running_instances": 33,
+    "gpu_util_pct": 58.9,
+    "gpu_mem_gb": 18.2,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "263b2d0ccd84f09a89b6676c",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "2988f6d00a08192b50b767f4",
+    "running_instances": 2,
+    "gpu_util_pct": 1.4,
+    "gpu_mem_gb": 7.1,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "06687be9af284a7dc17080a5",
+    "running_instances": 28,
+    "gpu_util_pct": 67.8,
+    "gpu_mem_gb": 12.1,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "143ae60e86f40f8f1d0be15d",
+    "running_instances": 22,
+    "gpu_util_pct": 7.7,
+    "gpu_mem_gb": 1.4,
+    "failed_last_hour": 2
+   },
+   {
+    "node": "Node-7",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 24,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 78
+   },
+   {
+    "node": "Node-8",
+    "machine": "20a6536969b98f91dee5063f",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S011",
+  "t": 3810857,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 24,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 43
+   },
+   {
+    "node": "Node-2",
+    "machine": "1588e233f75554bcf494befc",
+    "running_instances": 1,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "13a4efc26b21f0789828024e",
+    "running_instances": 11,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 7
+   },
+   {
+    "node": "Node-4",
+    "machine": "2988f6d00a08192b50b767f4",
+    "running_instances": 9,
+    "gpu_util_pct": 5.2,
+    "gpu_mem_gb": 0.5,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "0e35ab484e3b10b3d19a3a9e",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "12293bcbb049bbfcbd9b4763",
+    "running_instances": 28,
+    "gpu_util_pct": 123.0,
+    "gpu_mem_gb": 16.5,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "1a665ee7c93b2234b7f2c17f",
+    "running_instances": 1,
+    "gpu_util_pct": 629.0,
+    "gpu_mem_gb": 78.1,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "251d3afd309a8839c18da7a5",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S012",
+  "t": 3817854,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 23,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 78
+   },
+   {
+    "node": "Node-2",
+    "machine": "13a4efc26b21f0789828024e",
+    "running_instances": 11,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 4
+   },
+   {
+    "node": "Node-3",
+    "machine": "0c1a49e447a8b623d8d5fe04",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "21819c550ee76d3426019b90",
+    "running_instances": 16,
+    "gpu_util_pct": 2.5,
+    "gpu_mem_gb": 7.6,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "0da924447bdd80bba7e41289",
+    "running_instances": 29,
+    "gpu_util_pct": 104.7,
+    "gpu_mem_gb": 29.2,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "0018d759f400ef5c0457ab9c",
+    "running_instances": 8,
+    "gpu_util_pct": 52.0,
+    "gpu_mem_gb": 6.6,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "10c1ff649613fd1da3655fd3",
+    "running_instances": 29,
+    "gpu_util_pct": 6.5,
+    "gpu_mem_gb": 2.6,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "0caf8aa8ca750c7b486aba52",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S013",
+  "t": 3860920,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "24ed7ac8e09f40cc3c00295b",
+    "running_instances": 29,
+    "gpu_util_pct": 9.4,
+    "gpu_mem_gb": 3.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "142cdfffe8f591201d31d0b1",
+    "running_instances": 1,
+    "gpu_util_pct": 85.2,
+    "gpu_mem_gb": 28.3,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "2d87ed7f452cd00fe37345f1",
+    "running_instances": 24,
+    "gpu_util_pct": 5.3,
+    "gpu_mem_gb": 2.4,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "17cddff5b1a3c961b9b66f7b",
+    "running_instances": 24,
+    "gpu_util_pct": 232.8,
+    "gpu_mem_gb": 23.3,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "171aa25237b0956387f8872f",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "013d05d7ec4e8f23100b34b3",
+    "running_instances": 1,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "0c132162d809dafc1f7daca7",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 21,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 22
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S014",
+  "t": 3942091,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "246795d72c6e7e35df83751c",
+    "running_instances": 29,
+    "gpu_util_pct": 152.8,
+    "gpu_mem_gb": 20.7,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "1aafda90cc6f46f0f4f90e32",
+    "running_instances": 21,
+    "gpu_util_pct": 98.4,
+    "gpu_mem_gb": 22.4,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 22,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 35
+   },
+   {
+    "node": "Node-4",
+    "machine": "06887c7b74f6387b60fa127e",
+    "running_instances": 1,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "20c4ace4ab7a8500e522d598",
+    "running_instances": 23,
+    "gpu_util_pct": 2.6,
+    "gpu_mem_gb": 0.9,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "2497d869755ec9ee6b58ab01",
+    "running_instances": 24,
+    "gpu_util_pct": 0.2,
+    "gpu_mem_gb": 0.4,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "2b8b1ba873c442a0b46a63de",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "1116ba0a7ae85229947ec79f",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S015",
+  "t": 3981610,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "1844a6ce85768420a1180983",
+    "running_instances": 31,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 2
+   },
+   {
+    "node": "Node-2",
+    "machine": "2b8c83862a4bd55f90593014",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "25ead171b786cf93ffe13968",
+    "running_instances": 22,
+    "gpu_util_pct": 51.2,
+    "gpu_mem_gb": 30.1,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "1fce4f46b813d28cbccbfbc3",
+    "running_instances": 20,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "2e4a8989e9feaa14ccc75128",
+    "running_instances": 28,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 2
+   },
+   {
+    "node": "Node-6",
+    "machine": "246795d72c6e7e35df83751c",
+    "running_instances": 30,
+    "gpu_util_pct": 115.8,
+    "gpu_mem_gb": 13.7,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "1f3f97ce9e3f3fc30a609ce0",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "2ef660e42c8e37888d5f555c",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S016",
+  "t": 4027314,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "07ecaf0d03555a8702f56a8c",
+    "running_instances": 4,
+    "gpu_util_pct": 72.4,
+    "gpu_mem_gb": 3.6,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "13a4efc26b21f0789828024e",
+    "running_instances": 10,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 2
+   },
+   {
+    "node": "Node-3",
+    "machine": "07a6772e2828f6b48a24030d",
+    "running_instances": 1,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "15c5edff1bc34f6c20b58a74",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "094548706647e38b78dec044",
+    "running_instances": 27,
+    "gpu_util_pct": 0.6,
+    "gpu_mem_gb": 1.8,
+    "failed_last_hour": 2
+   },
+   {
+    "node": "Node-6",
+    "machine": "17185cff7bebe7ba968b480c",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "03cc3e16b7a19fa383feabc3",
+    "running_instances": 19,
+    "gpu_util_pct": 85.2,
+    "gpu_mem_gb": 4.9,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "16b3cec68193e8b041dcd447",
+    "running_instances": 31,
+    "gpu_util_pct": 125.6,
+    "gpu_mem_gb": 33.1,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S017",
+  "t": 4256324,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "2b8c83862a4bd55f90593014",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "2ab4c04b479710ac03d5cc22",
+    "running_instances": 47,
+    "gpu_util_pct": 130.0,
+    "gpu_mem_gb": 31.8,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "0da924447bdd80bba7e41289",
+    "running_instances": 28,
+    "gpu_util_pct": 21.4,
+    "gpu_mem_gb": 8.3,
+    "failed_last_hour": 3
+   },
+   {
+    "node": "Node-4",
+    "machine": "251d3afd309a8839c18da7a5",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "214d56440480dacda8347082",
+    "running_instances": 41,
+    "gpu_util_pct": 61.3,
+    "gpu_mem_gb": 32.2,
+    "failed_last_hour": 1
+   },
+   {
+    "node": "Node-6",
+    "machine": "00b7e2d6533605d5e931b00c",
+    "running_instances": 30,
+    "gpu_util_pct": 203.9,
+    "gpu_mem_gb": 24.1,
+    "failed_last_hour": 1
+   },
+   {
+    "node": "Node-7",
+    "machine": "026e06f7c3c996ec82c69572",
+    "running_instances": 11,
+    "gpu_util_pct": 7.6,
+    "gpu_mem_gb": 1.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "254497d86f3bc1779e9c437c",
+    "running_instances": 21,
+    "gpu_util_pct": 153.2,
+    "gpu_mem_gb": 35.1,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S018",
+  "t": 4606448,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "143ae60e86f40f8f1d0be15d",
+    "running_instances": 31,
+    "gpu_util_pct": 198.0,
+    "gpu_mem_gb": 39.8,
+    "failed_last_hour": 2
+   },
+   {
+    "node": "Node-2",
+    "machine": "2b8c83862a4bd55f90593014",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "2daafba3a48984f15d4f1325",
+    "running_instances": 18,
+    "gpu_util_pct": 31.1,
+    "gpu_mem_gb": 15.7,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "1f46b05a79d06eb6019e5022",
+    "running_instances": 27,
+    "gpu_util_pct": 51.9,
+    "gpu_mem_gb": 5.4,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "101ecbca4c891a23b7d22565",
+    "running_instances": 23,
+    "gpu_util_pct": 2.8,
+    "gpu_mem_gb": 16.2,
+    "failed_last_hour": 2
+   },
+   {
+    "node": "Node-6",
+    "machine": "15976f62d44f32873ecaa120",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "12be01808689bf618d8d450e",
+    "running_instances": 5,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "0ff9eb37457a1ece65edcfd5",
+    "running_instances": 31,
+    "gpu_util_pct": 145.8,
+    "gpu_mem_gb": 26.4,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S019",
+  "t": 4620572,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "285100ad166bdcef5bf9cab7",
+    "running_instances": 26,
+    "gpu_util_pct": 89.4,
+    "gpu_mem_gb": 19.8,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "20a6536969b98f91dee5063f",
+    "running_instances": 4,
+    "gpu_util_pct": 8.9,
+    "gpu_mem_gb": 0.5,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 21,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 78
+   },
+   {
+    "node": "Node-4",
+    "machine": "15976f62d44f32873ecaa120",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "1f3b7b0a93090bedd1b22bb5",
+    "running_instances": 22,
+    "gpu_util_pct": 119.5,
+    "gpu_mem_gb": 18.3,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "29e05ae21a6223af911e8c0d",
+    "running_instances": 3,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.2,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "090e47d69ca89eb362355a97",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "13a4efc26b21f0789828024e",
+    "running_instances": 11,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 4
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S020",
+  "t": 4666053,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "11138218e391f68cf0a24e0e",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "29f99950a73f41f7461aff8a",
+    "running_instances": 21,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "090e47d69ca89eb362355a97",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "151fb841dadcef6f2780e077",
+    "running_instances": 5,
+    "gpu_util_pct": 0.8,
+    "gpu_mem_gb": 0.7,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "285100ad166bdcef5bf9cab7",
+    "running_instances": 29,
+    "gpu_util_pct": 111.3,
+    "gpu_mem_gb": 15.2,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "2b8b1ba873c442a0b46a63de",
+    "running_instances": 1,
+    "gpu_util_pct": 88.0,
+    "gpu_mem_gb": 14.2,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "26d999ab9c8d97ae98e55ddd",
+    "running_instances": 4,
+    "gpu_util_pct": 62.2,
+    "gpu_mem_gb": 8.7,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 23,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 103
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S021",
+  "t": 4728966,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "1fe288adc152b8b85f4aece5",
+    "running_instances": 5,
+    "gpu_util_pct": 51.6,
+    "gpu_mem_gb": 3.8,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "1a66117372a2440a67902ae6",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "01a75ccce109334a5e06c899",
+    "running_instances": 22,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "2847e0ab38b42f69a70578a9",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "1a22c7040e090510e29bc619",
+    "running_instances": 24,
+    "gpu_util_pct": 5.5,
+    "gpu_mem_gb": 1.5,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "21819c550ee76d3426019b90",
+    "running_instances": 20,
+    "gpu_util_pct": 93.2,
+    "gpu_mem_gb": 22.2,
+    "failed_last_hour": 1
+   },
+   {
+    "node": "Node-7",
+    "machine": "2a80f79a43f396db96c97841",
+    "running_instances": 33,
+    "gpu_util_pct": 69.6,
+    "gpu_mem_gb": 6.6,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "13a4efc26b21f0789828024e",
+    "running_instances": 12,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 17
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S022",
+  "t": 4817770,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "0125f79f407c3c3710b9cc10",
+    "running_instances": 23,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 2
+   },
+   {
+    "node": "Node-2",
+    "machine": "2847e0ab38b42f69a70578a9",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "04b76e48f8e09cede7bf6582",
+    "running_instances": 1,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "091874591c93b7fa72dc8a54",
+    "running_instances": 34,
+    "gpu_util_pct": 140.0,
+    "gpu_mem_gb": 32.7,
+    "failed_last_hour": 1
+   },
+   {
+    "node": "Node-5",
+    "machine": "2b8c83862a4bd55f90593014",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "09045f8d0027bdda4705bb83",
+    "running_instances": 34,
+    "gpu_util_pct": 85.4,
+    "gpu_mem_gb": 23.6,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "17e0a501bf65074b641b9118",
+    "running_instances": 30,
+    "gpu_util_pct": 77.3,
+    "gpu_mem_gb": 29.3,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "27320c953f75e40e0188f264",
+    "running_instances": 32,
+    "gpu_util_pct": 10.0,
+    "gpu_mem_gb": 2.9,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S023",
+  "t": 4902427,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "13a4efc26b21f0789828024e",
+    "running_instances": 12,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 1
+   },
+   {
+    "node": "Node-2",
+    "machine": "20c6a25579c42480982daf72",
+    "running_instances": 32,
+    "gpu_util_pct": 77.4,
+    "gpu_mem_gb": 27.3,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "17185cff7bebe7ba968b480c",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "0588eaef6c3fa7cfa941def2",
+    "running_instances": 42,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "048d883ff19276ad62189797",
+    "running_instances": 5,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "1f3f97ce9e3f3fc30a609ce0",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 25,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 140
+   },
+   {
+    "node": "Node-8",
+    "machine": "1465a37f156f80e0687d8fff",
+    "running_instances": 36,
+    "gpu_util_pct": 56.6,
+    "gpu_mem_gb": 20.7,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S024",
+  "t": 4907952,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "2979722d2efd302ceedfcc6b",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "1f66fe9833f1610b512177e1",
+    "running_instances": 26,
+    "gpu_util_pct": 50.6,
+    "gpu_mem_gb": 19.8,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "0ada2343597a34b8ab9a3d00",
+    "running_instances": 2,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "251d3afd309a8839c18da7a5",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "0e2a8e35006f6afe30fb5f0e",
+    "running_instances": 3,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "033a61c97648ebeae1fabc1f",
+    "running_instances": 27,
+    "gpu_util_pct": 82.1,
+    "gpu_mem_gb": 7.6,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 24,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 151
+   },
+   {
+    "node": "Node-8",
+    "machine": "2ff6afe329c234627ed772a7",
+    "running_instances": 28,
+    "gpu_util_pct": 152.5,
+    "gpu_mem_gb": 26.4,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S025",
+  "t": 4930430,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 25,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 99
+   },
+   {
+    "node": "Node-2",
+    "machine": "0125f79f407c3c3710b9cc10",
+    "running_instances": 25,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 1
+   },
+   {
+    "node": "Node-3",
+    "machine": "06887c7b74f6387b60fa127e",
+    "running_instances": 2,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "2a8567b74e3fec852d71937a",
+    "running_instances": 29,
+    "gpu_util_pct": 19.0,
+    "gpu_mem_gb": 9.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "044d6f8f41708a9585273f1d",
+    "running_instances": 5,
+    "gpu_util_pct": 132.1,
+    "gpu_mem_gb": 7.3,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "14e0936dda7a1627002f1b0f",
+    "running_instances": 21,
+    "gpu_util_pct": 95.5,
+    "gpu_mem_gb": 9.6,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "15976f62d44f32873ecaa120",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "1a66117372a2440a67902ae6",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S026",
+  "t": 4941645,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 24,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 86
+   },
+   {
+    "node": "Node-2",
+    "machine": "12bcc4fceea93a30d7d0f324",
+    "running_instances": 35,
+    "gpu_util_pct": 122.7,
+    "gpu_mem_gb": 14.5,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "1b26e4a57491f4f2e3e2e4f4",
+    "running_instances": 20,
+    "gpu_util_pct": 5.0,
+    "gpu_mem_gb": 3.3,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "00cbf2e60435aff81a75fd44",
+    "running_instances": 23,
+    "gpu_util_pct": 11.2,
+    "gpu_mem_gb": 3.3,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "20a6536969b98f91dee5063f",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "2847e0ab38b42f69a70578a9",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "1ebdcbd4ce236610e8c01d82",
+    "running_instances": 22,
+    "gpu_util_pct": 157.0,
+    "gpu_mem_gb": 15.3,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "13a4efc26b21f0789828024e",
+    "running_instances": 11,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 3
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S027",
+  "t": 5119403,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "17cddff5b1a3c961b9b66f7b",
+    "running_instances": 28,
+    "gpu_util_pct": 57.2,
+    "gpu_mem_gb": 14.2,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "13a4efc26b21f0789828024e",
+    "running_instances": 12,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 6
+   },
+   {
+    "node": "Node-3",
+    "machine": "24d08cf3284d71d8e9442b8b",
+    "running_instances": 35,
+    "gpu_util_pct": 63.6,
+    "gpu_mem_gb": 4.9,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "2b8b1ba873c442a0b46a63de",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "04b4c63967144c630f9b4f01",
+    "running_instances": 41,
+    "gpu_util_pct": 4.9,
+    "gpu_mem_gb": 0.3,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "2979722d2efd302ceedfcc6b",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "2cc1f9a680c37c4a83248868",
+    "running_instances": 38,
+    "gpu_util_pct": 5.0,
+    "gpu_mem_gb": 8.6,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 25,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 57
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S028",
+  "t": 5224909,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "2ef660e42c8e37888d5f555c",
+    "running_instances": 11,
+    "gpu_util_pct": 1.0,
+    "gpu_mem_gb": 0.7,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "14e0936dda7a1627002f1b0f",
+    "running_instances": 17,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 26,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 139
+   },
+   {
+    "node": "Node-4",
+    "machine": "22bc13d460d6bd0820476dda",
+    "running_instances": 32,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "15976f62d44f32873ecaa120",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "0f2d49690f515de887eda46e",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "1c8929243f5aaf19555699ec",
+    "running_instances": 7,
+    "gpu_util_pct": 74.6,
+    "gpu_mem_gb": 6.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "1276c88236bd5b94e9d0021a",
+    "running_instances": 39,
+    "gpu_util_pct": 102.6,
+    "gpu_mem_gb": 23.6,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S029",
+  "t": 5265783,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "161710c9cb5a548632300f11",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "1aafda90cc6f46f0f4f90e32",
+    "running_instances": 34,
+    "gpu_util_pct": 59.2,
+    "gpu_mem_gb": 16.6,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "2b8c83862a4bd55f90593014",
+    "running_instances": 1,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.2,
+    "failed_last_hour": 10
+   },
+   {
+    "node": "Node-4",
+    "machine": "17cddff5b1a3c961b9b66f7b",
+    "running_instances": 29,
+    "gpu_util_pct": 81.5,
+    "gpu_mem_gb": 21.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 24,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 129
+   },
+   {
+    "node": "Node-6",
+    "machine": "15f1988ff6ad4c90552293e2",
+    "running_instances": 31,
+    "gpu_util_pct": 2.1,
+    "gpu_mem_gb": 7.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "09045f8d0027bdda4705bb83",
+    "running_instances": 28,
+    "gpu_util_pct": 6.3,
+    "gpu_mem_gb": 1.9,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "1a66117372a2440a67902ae6",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S030",
+  "t": 5297489,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "13a4efc26b21f0789828024e",
+    "running_instances": 13,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 6
+   },
+   {
+    "node": "Node-2",
+    "machine": "1ec8516cea9ff5f53bdf146b",
+    "running_instances": 36,
+    "gpu_util_pct": 7.8,
+    "gpu_mem_gb": 2.4,
+    "failed_last_hour": 1
+   },
+   {
+    "node": "Node-3",
+    "machine": "142a829a1e344f905fdcce42",
+    "running_instances": 30,
+    "gpu_util_pct": 57.0,
+    "gpu_mem_gb": 23.9,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "0cf65a70fed8bae00fc20079",
+    "running_instances": 30,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "15976f62d44f32873ecaa120",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "2500a3f1f824bf611a9ebe04",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "2a3cd2954bbb7136c1f1d12d",
+    "running_instances": 28,
+    "gpu_util_pct": 51.1,
+    "gpu_mem_gb": 6.9,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "1c6afd5c227e89b8a29589f4",
+    "running_instances": 8,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S031",
+  "t": 5310993,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "13a4efc26b21f0789828024e",
+    "running_instances": 13,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 6
+   },
+   {
+    "node": "Node-2",
+    "machine": "0018d759f400ef5c0457ab9c",
+    "running_instances": 7,
+    "gpu_util_pct": 58.0,
+    "gpu_mem_gb": 4.2,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "14c1d6a040a33046698786e1",
+    "running_instances": 32,
+    "gpu_util_pct": 121.9,
+    "gpu_mem_gb": 16.8,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "0addb3777316a5465e5b71bc",
+    "running_instances": 19,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "17185cff7bebe7ba968b480c",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 23,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 111
+   },
+   {
+    "node": "Node-7",
+    "machine": "19ca53257b8e2ac5107ea44c",
+    "running_instances": 30,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "2500a3f1f824bf611a9ebe04",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S032",
+  "t": 5337942,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "2500a3f1f824bf611a9ebe04",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "17185cff7bebe7ba968b480c",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "0da924447bdd80bba7e41289",
+    "running_instances": 38,
+    "gpu_util_pct": 88.1,
+    "gpu_mem_gb": 19.2,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "00dd90f7f0fdc9b6e0341de1",
+    "running_instances": 25,
+    "gpu_util_pct": 51.7,
+    "gpu_mem_gb": 8.4,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "26473190adde7238a4a16330",
+    "running_instances": 5,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "01cb92957670e37b114405a3",
+    "running_instances": 5,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "220c9dac1d63740eeebc87fc",
+    "running_instances": 36,
+    "gpu_util_pct": 162.7,
+    "gpu_mem_gb": 20.5,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 23,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 98
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S033",
+  "t": 5468302,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "2979722d2efd302ceedfcc6b",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "04b4c63967144c630f9b4f01",
+    "running_instances": 41,
+    "gpu_util_pct": 41.3,
+    "gpu_mem_gb": 8.2,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "1a66117372a2440a67902ae6",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "2592210a2334355c236cd1a7",
+    "running_instances": 27,
+    "gpu_util_pct": 207.5,
+    "gpu_mem_gb": 37.9,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 24,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 82
+   },
+   {
+    "node": "Node-6",
+    "machine": "13a4efc26b21f0789828024e",
+    "running_instances": 14,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 8
+   },
+   {
+    "node": "Node-7",
+    "machine": "161710c9cb5a548632300f11",
+    "running_instances": 1,
+    "gpu_util_pct": 696.8,
+    "gpu_mem_gb": 154.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "19f9c93a1ff9b48cec4c7605",
+    "running_instances": 1,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S034",
+  "t": 5569683,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "17ff1bf5e8b8d6552e960588",
+    "running_instances": 32,
+    "gpu_util_pct": 91.4,
+    "gpu_mem_gb": 15.6,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "22bc13d460d6bd0820476dda",
+    "running_instances": 36,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "13a4efc26b21f0789828024e",
+    "running_instances": 13,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 1
+   },
+   {
+    "node": "Node-4",
+    "machine": "17185cff7bebe7ba968b480c",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "2b00c73fe15057b505823fdc",
+    "running_instances": 29,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "11138218e391f68cf0a24e0e",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "050ea2fa5ebe2f235fab4432",
+    "running_instances": 23,
+    "gpu_util_pct": 74.2,
+    "gpu_mem_gb": 5.7,
+    "failed_last_hour": 1
+   },
+   {
+    "node": "Node-8",
+    "machine": "12c436579452f7f3ac1e9a7d",
+    "running_instances": 35,
+    "gpu_util_pct": 158.8,
+    "gpu_mem_gb": 11.6,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S035",
+  "t": 5605665,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "13fb08d051127c39f7e87f04",
+    "running_instances": 28,
+    "gpu_util_pct": 69.7,
+    "gpu_mem_gb": 22.8,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "13a4efc26b21f0789828024e",
+    "running_instances": 14,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 1
+   },
+   {
+    "node": "Node-3",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 24,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 51
+   },
+   {
+    "node": "Node-4",
+    "machine": "20db11b1d966ed71037896ca",
+    "running_instances": 14,
+    "gpu_util_pct": 7.9,
+    "gpu_mem_gb": 0.6,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "165261853e188ca69c4fbcdf",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "11f3e8feb571d4babebae3d4",
+    "running_instances": 35,
+    "gpu_util_pct": 358.0,
+    "gpu_mem_gb": 61.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "01db31355e0ad0aca523dff7",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "2cd43b3fb43fba159c577220",
+    "running_instances": 38,
+    "gpu_util_pct": 56.1,
+    "gpu_mem_gb": 7.2,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S036",
+  "t": 5747312,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "01db31355e0ad0aca523dff7",
+    "running_instances": 1,
+    "gpu_util_pct": 656.4,
+    "gpu_mem_gb": 61.3,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "0915f523b0135f175663c26a",
+    "running_instances": 6,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "15976f62d44f32873ecaa120",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "2f8ad6255991badc1b394d32",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "11de7dca12bc2f66efff313b",
+    "running_instances": 34,
+    "gpu_util_pct": 2.8,
+    "gpu_mem_gb": 3.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "20a6536969b98f91dee5063f",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 24,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 9
+   },
+   {
+    "node": "Node-8",
+    "machine": "263b2d0ccd84f09a89b6676c",
+    "running_instances": 2,
+    "gpu_util_pct": 79.1,
+    "gpu_mem_gb": 8.1,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S037",
+  "t": 5918289,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "288b2b0649a411ee657b6b1c",
+    "running_instances": 46,
+    "gpu_util_pct": 60.1,
+    "gpu_mem_gb": 31.4,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "2979722d2efd302ceedfcc6b",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 26,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 27
+   },
+   {
+    "node": "Node-4",
+    "machine": "15976f62d44f32873ecaa120",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "13a4efc26b21f0789828024e",
+    "running_instances": 13,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 1
+   },
+   {
+    "node": "Node-6",
+    "machine": "2031d5d4fcebfbd4fbab58c9",
+    "running_instances": 49,
+    "gpu_util_pct": 187.2,
+    "gpu_mem_gb": 33.1,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "17ff1bf5e8b8d6552e960588",
+    "running_instances": 36,
+    "gpu_util_pct": 86.9,
+    "gpu_mem_gb": 9.5,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "14b8c4c7fd725dc62241216a",
+    "running_instances": 32,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S038",
+  "t": 5972070,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "254497d86f3bc1779e9c437c",
+    "running_instances": 46,
+    "gpu_util_pct": 340.1,
+    "gpu_mem_gb": 38.5,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-2",
+    "machine": "142cdfffe8f591201d31d0b1",
+    "running_instances": 7,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "23fadb2a32734936d5750c30",
+    "running_instances": 69,
+    "gpu_util_pct": 143.7,
+    "gpu_mem_gb": 36.3,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "1a665ee7c93b2234b7f2c17f",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 26,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 28
+   },
+   {
+    "node": "Node-6",
+    "machine": "15976f62d44f32873ecaa120",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "13a4efc26b21f0789828024e",
+    "running_instances": 15,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 4
+   },
+   {
+    "node": "Node-8",
+    "machine": "246795d72c6e7e35df83751c",
+    "running_instances": 53,
+    "gpu_util_pct": 100.9,
+    "gpu_mem_gb": 23.0,
+    "failed_last_hour": 0
+   }
+  ]
+ },
+ {
+  "snapshot_id": "S039",
+  "t": 6062038,
+  "nodes": [
+   {
+    "node": "Node-1",
+    "machine": "292cecaf616d2df9ad4f8d19",
+    "running_instances": 28,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.2,
+    "failed_last_hour": 6
+   },
+   {
+    "node": "Node-2",
+    "machine": "15976f62d44f32873ecaa120",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-3",
+    "machine": "24923fba683501bd6058766b",
+    "running_instances": 58,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-4",
+    "machine": "251d3afd309a8839c18da7a5",
+    "running_instances": 0,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-5",
+    "machine": "23fadb2a32734936d5750c30",
+    "running_instances": 77,
+    "gpu_util_pct": 51.3,
+    "gpu_mem_gb": 33.9,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-6",
+    "machine": "1e196e397209cdb12cd84153",
+    "running_instances": 37,
+    "gpu_util_pct": 158.8,
+    "gpu_mem_gb": 51.2,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-7",
+    "machine": "17ff1bf5e8b8d6552e960588",
+    "running_instances": 55,
+    "gpu_util_pct": 92.8,
+    "gpu_mem_gb": 17.4,
+    "failed_last_hour": 0
+   },
+   {
+    "node": "Node-8",
+    "machine": "07a757904c2974820f7f9dce",
+    "running_instances": 32,
+    "gpu_util_pct": 0.0,
+    "gpu_mem_gb": 0.0,
+    "failed_last_hour": 18
+   }
+  ]
+ }
+]

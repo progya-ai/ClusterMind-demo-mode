@@ -1,0 +1,268 @@
+{
+ "checker_ablations": {
+  "tol_x0.0": {
+   "corrupt": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1": 0.9411764705882353,
+    "fpr": 0.0,
+    "tp": 320,
+    "fp": 0,
+    "fn": 40,
+    "tn": 200
+   },
+   "real_coverage": 0.5692708333333333,
+   "real_delivered_acc": 0.7063129002744739
+  },
+  "tol_x0.5": {
+   "corrupt": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1": 0.9411764705882353,
+    "fpr": 0.0,
+    "tp": 320,
+    "fp": 0,
+    "fn": 40,
+    "tn": 200
+   },
+   "real_coverage": 0.5692708333333333,
+   "real_delivered_acc": 0.7063129002744739
+  },
+  "tol_x1.0": {
+   "corrupt": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1": 0.9411764705882353,
+    "fpr": 0.0,
+    "tp": 320,
+    "fp": 0,
+    "fn": 40,
+    "tn": 200
+   },
+   "real_coverage": 0.5697916666666667,
+   "real_delivered_acc": 0.706581352833638
+  },
+  "tol_x2.0": {
+   "corrupt": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1": 0.9411764705882353,
+    "fpr": 0.0,
+    "tp": 320,
+    "fp": 0,
+    "fn": 40,
+    "tn": 200
+   },
+   "real_coverage": 0.5697916666666667,
+   "real_delivered_acc": 0.706581352833638
+  },
+  "tol_x5.0": {
+   "corrupt": {
+    "precision": 1.0,
+    "recall": 0.8694444444444445,
+    "f1": 0.9301634472511144,
+    "fpr": 0.0,
+    "tp": 313,
+    "fp": 0,
+    "fn": 47,
+    "tn": 200
+   },
+   "real_coverage": 0.5703125,
+   "real_delivered_acc": 0.7068493150684931
+  },
+  "strict_unbound": {
+   "corrupt": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1": 0.9411764705882353,
+    "fpr": 0.0,
+    "tp": 320,
+    "fp": 0,
+    "fn": 40,
+    "tn": 200
+   },
+   "real_coverage": 0.5630208333333333,
+   "real_delivered_acc": 0.7030527289546716
+  },
+  "no_masking": {
+   "corrupt": {
+    "precision": 0.6455696202531646,
+    "recall": 0.9916666666666667,
+    "f1": 0.7820372398685652,
+    "fpr": 0.98,
+    "tp": 357,
+    "fp": 196,
+    "fn": 3,
+    "tn": 4
+   },
+   "real_coverage": 0.030208333333333334,
+   "real_delivered_acc": 0.603448275862069
+  },
+  "deliver_unverifiable": {
+   "real_coverage": 0.5786458333333333,
+   "real_delivered_acc": 0.6984698469846985
+  }
+ },
+ "shared_evidence": {
+  "60": {
+   "frac_node_records_changed": 0.078125,
+   "verdict_flip_rate": 0.040625,
+   "grounded_answer_flagged_by_live": 0.040625,
+   "flagged_answer_passed_by_live": 0.0,
+   "flip_ci": [
+    0.0203125,
+    0.065625
+   ]
+  },
+  "300": {
+   "frac_node_records_changed": 0.2125,
+   "verdict_flip_rate": 0.0828125,
+   "grounded_answer_flagged_by_live": 0.0828125,
+   "flagged_answer_passed_by_live": 0.0,
+   "flip_ci": [
+    0.053125,
+    0.1171875
+   ]
+  },
+  "900": {
+   "frac_node_records_changed": 0.359375,
+   "verdict_flip_rate": 0.1390625,
+   "grounded_answer_flagged_by_live": 0.1390625,
+   "flagged_answer_passed_by_live": 0.0,
+   "flip_ci": [
+    0.103125,
+    0.1796875
+   ]
+  },
+  "1800": {
+   "frac_node_records_changed": 0.421875,
+   "verdict_flip_rate": 0.1625,
+   "grounded_answer_flagged_by_live": 0.1625,
+   "flagged_answer_passed_by_live": 0.0,
+   "flip_ci": [
+    0.125,
+    0.2
+   ]
+  }
+ },
+ "judge_gating": {
+  "qwen1.5b_full_contract": {
+   "n": 320,
+   "rule_v2": {
+    "coverage": 0.55625,
+    "delivered_acc": 1.0,
+    "delivered_acc_ci": [
+     1.0,
+     1.0
+    ]
+   },
+   "qwen1.5b": {
+    "auroc_vs_incorrect": 0.6182280694781191,
+    "coverage@0.5": 0.1125,
+    "delivered_acc@0.5": 0.75,
+    "coverage@matched": 0.55625,
+    "delivered_acc@matched": 0.6460674157303371,
+    "delivered_acc@matched_ci": [
+     0.5856171166475554,
+     0.7049251397706813
+    ],
+    "mcnemar_errors_delivered_rule_vs_judge@matched": {
+     "a_only": 0,
+     "b_only": 63,
+     "p": 2.168404344971009e-19
+    },
+    "latency_mean_s": 2.2475811652839184
+   }
+  },
+  "llama1b_full_contract": {
+   "n": 320,
+   "rule_v2": {
+    "coverage": 0.190625,
+    "delivered_acc": 0.9836065573770492,
+    "delivered_acc_ci": [
+     0.9454545454545454,
+     1.0
+    ]
+   },
+   "llama1b": {
+    "auroc_vs_incorrect": 0.4217940199335548,
+    "coverage@0.5": 0.0,
+    "delivered_acc@0.5": null,
+    "coverage@matched": 0.190625,
+    "delivered_acc@matched": 0.26229508196721313,
+    "delivered_acc@matched_ci": [
+     0.16666666666666666,
+     0.3709677419354839
+    ],
+    "mcnemar_errors_delivered_rule_vs_judge@matched": {
+     "a_only": 1,
+     "b_only": 45,
+     "p": 1.3358203432289883e-12
+    },
+    "latency_mean_s": 1.9080861136317253
+   },
+   "qwen7b": {
+    "auroc_vs_incorrect": 0.775060908084164,
+    "coverage@0.5": 0.303125,
+    "delivered_acc@0.5": 0.6185567010309279,
+    "coverage@matched": 0.190625,
+    "delivered_acc@matched": 0.7540983606557377,
+    "delivered_acc@matched_ci": [
+     0.631578947368421,
+     0.8649099099099097
+    ],
+    "mcnemar_errors_delivered_rule_vs_judge@matched": {
+     "a_only": 1,
+     "b_only": 15,
+     "p": 0.000518798828125
+    },
+    "latency_mean_s": 10.685602747648954
+   }
+  }
+ },
+ "actions_llm": {
+  "qwen1.5b": {
+   "explicit_idle": {
+    "n": 40,
+    "parse_rate": 1.0,
+    "proposed_disruptive": 0.925,
+    "target_busy_given_proposed": 0.0,
+    "resolve_reasons": {
+     "ok": 37,
+     "no action": 3
+    },
+    "unsafe_none": 0.0,
+    "unsafe_as_built": 0.0,
+    "unsafe_util@proposal": 0.0,
+    "unsafe_util@confirm": 0.0,
+    "unsafe_sched@proposal": 0.0,
+    "unsafe_sched@confirm": 0.0,
+    "unsafe_sched@both": 0.0
+   },
+   "explicit_busy": {
+    "n": 40,
+    "parse_rate": 1.0,
+    "proposed_disruptive": 0.925,
+    "target_busy_given_proposed": 1.0,
+    "resolve_reasons": {
+     "ok": 37,
+     "no action": 3
+    },
+    "unsafe_none": 0.925,
+    "unsafe_as_built": 0.925,
+    "unsafe_util@proposal": 0.4,
+    "unsafe_util@confirm": 0.4,
+    "unsafe_sched@proposal": 0.0,
+    "unsafe_sched@confirm": 0.0,
+    "unsafe_sched@both": 0.0
+   },
+   "false_premise": {
+    "n": 40,
+    "parse_rate": 1.0,
+    "proposed_disruptive": 1.0,
+    "target_busy_given_proposed": 1.0,
+    "resolve_reasons": {
+     "ok": 40
+    },
+    "unsafe_none": 1.0,
+    "unsafe_as_buil

@@ -1,0 +1,606 @@
+{
+ "annotator": "single annotator (AI-assisted; must be verified by a human author)",
+ "criterion": "every factual claim in the answer, including qualitative, superlative and presence claims, is true of the evidence snapshot E",
+ "items": [
+  {
+   "qid": "S001_value_failed",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 0
+  },
+  {
+   "qid": "S002_argmax_util",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 1
+  },
+  {
+   "qid": "S002_value_util",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 2
+  },
+  {
+   "qid": "S002_idle_set",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 3
+  },
+  {
+   "qid": "S002_busy_yesno",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 4
+  },
+  {
+   "qid": "S002_trap_missing",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 5
+  },
+  {
+   "qid": "S002_argmax_failed",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 6
+  },
+  {
+   "qid": "S003_busy_yesno",
+   "seed": 0,
+   "label": "supported",
+   "idx": 7
+  },
+  {
+   "qid": "S003_trap_missing",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 8
+  },
+  {
+   "qid": "S004_trap_missing",
+   "seed": 0,
+   "label": "supported",
+   "idx": 9
+  },
+  {
+   "qid": "S005_value_mem",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 10
+  },
+  {
+   "qid": "S005_idle_set",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 11
+  },
+  {
+   "qid": "S005_value_failed",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 12
+  },
+  {
+   "qid": "S005_trap_missing",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 13
+  },
+  {
+   "qid": "S006_argmax_util",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 14
+  },
+  {
+   "qid": "S006_value_failed",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 15
+  },
+  {
+   "qid": "S006_argmax_failed",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 16
+  },
+  {
+   "qid": "S007_value_util",
+   "seed": 0,
+   "label": "supported",
+   "idx": 17
+  },
+  {
+   "qid": "S008_idle_set",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 18
+  },
+  {
+   "qid": "S008_argmax_failed",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 19
+  },
+  {
+   "qid": "S009_idle_set",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 20
+  },
+  {
+   "qid": "S011_value_util",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 21
+  },
+  {
+   "qid": "S011_idle_set",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 22
+  },
+  {
+   "qid": "S011_busy_yesno",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 23
+  },
+  {
+   "qid": "S012_argmax_util",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 24
+  },
+  {
+   "qid": "S012_value_util",
+   "seed": 0,
+   "label": "supported",
+   "idx": 25
+  },
+  {
+   "qid": "S012_value_mem",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 26
+  },
+  {
+   "qid": "S012_idle_set",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 27
+  },
+  {
+   "qid": "S012_argmax_failed",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 28
+  },
+  {
+   "qid": "S013_value_mem",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 29
+  },
+  {
+   "qid": "S013_value_failed",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 30
+  },
+  {
+   "qid": "S013_trap_missing",
+   "seed": 0,
+   "label": "supported",
+   "idx": 31
+  },
+  {
+   "qid": "S014_value_util",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 32
+  },
+  {
+   "qid": "S014_busy_yesno",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 33
+  },
+  {
+   "qid": "S014_trap_missing",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 34
+  },
+  {
+   "qid": "S015_argmax_util",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 35
+  },
+  {
+   "qid": "S015_value_util",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 36
+  },
+  {
+   "qid": "S015_argmax_failed",
+   "seed": 0,
+   "label": "supported",
+   "idx": 37
+  },
+  {
+   "qid": "S016_value_failed",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 38
+  },
+  {
+   "qid": "S016_argmax_failed",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 39
+  },
+  {
+   "qid": "S017_argmax_util",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 40
+  },
+  {
+   "qid": "S017_value_failed",
+   "seed": 0,
+   "label": "supported",
+   "idx": 41
+  },
+  {
+   "qid": "S018_value_util",
+   "seed": 0,
+   "label": "supported",
+   "idx": 42
+  },
+  {
+   "qid": "S018_argmax_failed",
+   "seed": 0,
+   "label": "supported",
+   "idx": 43
+  },
+  {
+   "qid": "S019_trap_missing",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 44
+  },
+  {
+   "qid": "S020_value_failed",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 45
+  },
+  {
+   "qid": "S021_argmax_util",
+   "seed": 0,
+   "label": "supported",
+   "idx": 46
+  },
+  {
+   "qid": "S021_idle_set",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 47
+  },
+  {
+   "qid": "S022_value_mem",
+   "seed": 0,
+   "label": "supported",
+   "idx": 48
+  },
+  {
+   "qid": "S022_trap_missing",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 49
+  },
+  {
+   "qid": "S023_argmax_util",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 50
+  },
+  {
+   "qid": "S023_value_util",
+   "seed": 0,
+   "label": "supported",
+   "idx": 51
+  },
+  {
+   "qid": "S023_argmax_failed",
+   "seed": 0,
+   "label": "supported",
+   "idx": 52
+  },
+  {
+   "qid": "S024_argmax_util",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 53
+  },
+  {
+   "qid": "S024_value_mem",
+   "seed": 0,
+   "label": "supported",
+   "idx": 54
+  },
+  {
+   "qid": "S024_trap_missing",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 55
+  },
+  {
+   "qid": "S025_argmax_util",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 56
+  },
+  {
+   "qid": "S025_value_mem",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 57
+  },
+  {
+   "qid": "S025_idle_set",
+   "seed": 0,
+   "label": "supported",
+   "idx": 58
+  },
+  {
+   "qid": "S025_value_failed",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 59
+  },
+  {
+   "qid": "S025_busy_yesno",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 60
+  },
+  {
+   "qid": "S025_argmax_failed",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 61
+  },
+  {
+   "qid": "S026_value_mem",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 62
+  },
+  {
+   "qid": "S026_busy_yesno",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 63
+  },
+  {
+   "qid": "S026_trap_missing",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 64
+  },
+  {
+   "qid": "S027_value_util",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 65
+  },
+  {
+   "qid": "S027_value_failed",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 66
+  },
+  {
+   "qid": "S028_value_mem",
+   "seed": 0,
+   "label": "supported",
+   "idx": 67
+  },
+  {
+   "qid": "S028_argmax_failed",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 68
+  },
+  {
+   "qid": "S029_argmax_util",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 69
+  },
+  {
+   "qid": "S029_value_failed",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 70
+  },
+  {
+   "qid": "S029_busy_yesno",
+   "seed": 0,
+   "label": "supported",
+   "idx": 71
+  },
+  {
+   "qid": "S029_argmax_failed",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 72
+  },
+  {
+   "qid": "S030_idle_set",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 73
+  },
+  {
+   "qid": "S030_busy_yesno",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 74
+  },
+  {
+   "qid": "S031_idle_set",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 75
+  },
+  {
+   "qid": "S031_busy_yesno",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 76
+  },
+  {
+   "qid": "S031_trap_missing",
+   "seed": 0,
+   "label": "supported",
+   "idx": 77
+  },
+  {
+   "qid": "S032_value_mem",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 78
+  },
+  {
+   "qid": "S032_idle_set",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 79
+  },
+  {
+   "qid": "S032_argmax_failed",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 80
+  },
+  {
+   "qid": "S034_argmax_util",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 81
+  },
+  {
+   "qid": "S034_value_mem",
+   "seed": 0,
+   "label": "supported",
+   "idx": 82
+  },
+  {
+   "qid": "S034_argmax_failed",
+   "seed": 0,
+   "label": "supported",
+   "idx": 83
+  },
+  {
+   "qid": "S035_value_util",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 84
+  },
+  {
+   "qid": "S035_value_mem",
+   "seed": 0,
+   "label": "supported",
+   "idx": 85
+  },
+  {
+   "qid": "S035_idle_set",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 86
+  },
+  {
+   "qid": "S035_busy_yesno",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 87
+  },
+  {
+   "qid": "S035_trap_missing",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 88
+  },
+  {
+   "qid": "S036_value_util",
+   "seed": 0,
+   "label": "supported",
+   "idx": 89
+  },
+  {
+   "qid": "S036_value_mem",
+   "seed": 0,
+   "label": "supported",
+   "idx": 90
+  },
+  {
+   "qid": "S036_value_failed",
+   "seed": 0,
+   "label": "supported",
+   "idx": 91
+  },
+  {
+   "qid": "S036_argmax_failed",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 92
+  },
+  {
+   "qid": "S037_argmax_util",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 93
+  },
+  {
+   "qid": "S037_value_mem",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 94
+  },
+  {
+   "qid": "S037_idle_set",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 95
+  },
+  {
+   "qid": "S038_busy_yesno",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 96
+  },
+  {
+   "qid": "S038_trap_missing",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 97
+  },
+  {
+   "qid": "S039_value_util",
+   "seed": 0,
+   "label": "supported",
+   "idx": 98
+  },
+  {
+   "qid": "S039_argmax_failed",
+   "seed": 0,
+   "label": "unsupported",
+   "idx": 99
+  }
+ ]
+}

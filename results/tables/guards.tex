@@ -1,0 +1,18 @@
+\begin{tabular}{lrrrrr}
+\toprule
+Guard (predicate @ time) & $\Delta{=}0$ & 60\,s & 300\,s & 900\,s & 1800\,s \\
+\midrule
+\multicolumn{6}{l}{\emph{Unsafe executions, \% of shutdown requests on nodes busy at execution}} \\
+none (whitelist only) & 100.0 & 100.0 & 100.0 & 100.0 & 100.0 \\
+prototype (util, advisory) & 100.0 & 100.0 & 100.0 & 100.0 & 100.0 \\
+util $\le$10\% @ proposal & 47.0 & 47.0 & 47.0 & 47.0 & 47.1 \\
+util $\le$10\% @ confirmation & 47.0 & 46.9 & 46.7 & 47.1 & 46.5 \\
+running$=$0 @ proposal & 0.0 & 0.0 & 0.1 & 0.2 & 0.4 \\
+running$=$0 @ confirmation (ours) & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 \\
+\midrule
+\multicolumn{6}{l}{\emph{False blocks, \% of requests on nodes idle at execution}} \\
+util $\le$10\% @ proposal & 0.0 & 0.0 & 0.0 & 1.0 & 2.4 \\
+running$=$0 @ proposal & 0.0 & 0.5 & 2.0 & 5.3 & 8.1 \\
+running$=$0 @ confirmation (ours) & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 \\
+\bottomrule
+\end{tabular}

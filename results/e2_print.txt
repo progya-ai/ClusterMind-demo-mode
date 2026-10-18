@@ -1,0 +1,44 @@
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+qwen1.5b_full_contract acc 0.559 {0: 0.565625, 1: 0.55625, 2: 0.55625} gold_in_E 1.0
+    none {'coverage': 1.0, 'delivered_acc': 0.559, 'delivered_err': 0.441, 'errors_delivered_per_100': 44.062, 'correct_withheld_per_100': 0.0}
+    v0 {'coverage': 0.732, 'delivered_acc': 0.629, 'delivered_err': 0.371, 'errors_delivered_per_100': 27.188, 'correct_withheld_per_100': 9.896}
+    v1 {'coverage': 0.743, 'delivered_acc': 0.711, 'delivered_err': 0.289, 'errors_delivered_per_100': 21.458, 'correct_withheld_per_100': 3.125}
+    v1s {'coverage': 0.751, 'delivered_acc': 0.727, 'delivered_err': 0.273, 'errors_delivered_per_100': 20.521, 'correct_withheld_per_100': 1.354}
+    v2 {'coverage': 0.545, 'delivered_acc': 0.994, 'delivered_err': 0.006, 'errors_delivered_per_100': 0.312, 'correct_withheld_per_100': 1.771}
+llama1b_full_contract acc 0.385 {0: 0.328125, 1: 0.496875, 2: 0.33125} gold_in_E 1.0
+    none {'coverage': 1.0, 'delivered_acc': 0.385, 'delivered_err': 0.615, 'errors_delivered_per_100': 61.458, 'correct_withheld_per_100': 0.0}
+    v0 {'coverage': 0.821, 'delivered_acc': 0.438, 'delivered_err': 0.562, 'errors_delivered_per_100': 45.833, 'correct_withheld_per_100': 2.292}
+    v1 {'coverage': 0.42, 'delivered_acc': 0.624, 'delivered_err': 0.376, 'errors_delivered_per_100': 15.104, 'correct_withheld_per_100': 11.667}
+    v1s {'coverage': 0.389, 'delivered_acc': 0.65, 'delivered_err': 0.35, 'errors_delivered_per_100': 12.917, 'correct_withheld_per_100': 12.604}
+    v2 {'coverage': 0.245, 'delivered_acc': 0.985, 'delivered_err': 0.015, 'errors_delivered_per_100': 0.312, 'correct_withheld_per_100': 14.375}
+qwen1.5b_tfidf_contract acc 0.422 {0: 0.421875} gold_in_E 0.5
+    none {'coverage': 1.0, 'delivered_acc': 0.422, 'delivered_err': 0.578, 'errors_delivered_per_100': 57.812, 'correct_withheld_per_100': 0.0}
+    v0 {'coverage': 0.562, 'delivered_acc': 0.5, 'delivered_err': 0.5, 'errors_delivered_per_100': 28.125, 'correct_withheld_per_100': 14.062}
+    v1 {'coverage': 0.841, 'delivered_acc': 0.454, 'delivered_err': 0.546, 'errors_delivered_per_100': 45.938, 'correct_withheld_per_100': 4.062}
+    v1s {'coverage': 0.856, 'delivered_acc': 0.474, 'delivered_err': 0.526, 'errors_delivered_per_100': 45.0, 'correct_withheld_per_100': 1.562}
+    v2 {'coverage': 0.694, 'delivered_acc': 0.572, 'delivered_err': 0.428, 'errors_delivered_per_100': 29.688, 'correct_withheld_per_100': 2.5}
+llama1b_tfidf_contract acc 0.366 {0: 0.365625} gold_in_E 0.5
+    none {'coverage': 1.0, 'delivered_acc': 0.366, 'delivered_err': 0.634, 'errors_delivered_per_100': 63.438, 'correct_withheld_per_100': 0.0}
+    v0 {'coverage': 0.609, 'delivered_acc': 0.405, 'delivered_err': 0.595, 'errors_delivered_per_100': 36.25, 'correct_withheld_per_100': 11.875}
+    v1 {'coverage': 0.497, 'delivered_acc': 0.44, 'delivered_err': 0.56, 'errors_delivered_per_100': 27.812, 'correct_withheld_per_100': 14.688}
+    v1s {'coverage': 0.472, 'delivered_acc': 0.45, 'delivered_err': 0.55, 'errors_delivered_per_100': 25.938, 'correct_withheld_per_100': 15.313}
+    v2 {'coverage': 0.297, 'delivered_acc': 0.632, 'delivered_err': 0.368, 'errors_delivered_per_100': 10.938, 'correct_withheld_per_100': 17.812}
+qwen1.5b_tfidf_original acc 0.463 {0: 0.4625} gold_in_E 0.5
+    none {'coverage': 1.0, 'delivered_acc': 0.463, 'delivered_err': 0.537, 'errors_delivered_per_100': 53.75, 'correct_withheld_per_100': 0.0}
+    v0 {'coverage': 0.531, 'delivered_acc': 0.541, 'delivered_err': 0.459, 'errors_delivered_per_100': 24.375, 'correct_withheld_per_100': 17.5}
+    v1 {'coverage': 0.456, 'delivered_acc': 0.568, 'delivered_err': 0.432, 'errors_delivered_per_100': 19.688, 'correct_withheld_per_100': 20.312}
+    v1s {'coverage': 0.541, 'delivered_acc': 0.636, 'delivered_err': 0.364, 'errors_delivered_per_100': 19.688, 'correct_withheld_per_100': 11.875}
+    v2 {'coverage': 0.391, 'delivered_acc': 0.864, 'delivered_err': 0.136, 'errors_delivered_per_100': 5.312, 'correct_withheld_per_100': 12.5}
+qwen1.5b_full_original acc 0.594 {0: 0.59375} gold_in_E 1.0
+    none {'coverage': 1.0, 'delivered_acc': 0.594, 'delivered_err': 0.406, 'errors_delivered_per_100': 40.625, 'correct_withheld_per_100': 0.0}
+    v0 {'coverage': 0.853, 'delivered_acc': 0.634, 'delivered_err': 0.366, 'errors_delivered_per_100': 31.25, 'correct_withheld_per_100': 5.312}
+    v1 {'coverage': 0.7, 'delivered_acc': 0.71, 'delivered_err': 0.29, 'errors_delivered_per_100': 20.312, 'correct_withheld_per_100': 9.688}
+    v1s {'coverage': 0.75, 'delivered_acc': 0.725, 'delivered_err': 0.275, 'errors_delivered_per_100': 20.625, 'correct_withheld_per_100': 5.0}
+    v2 {'coverage': 0.525, 'delivered_acc': 0.994, 'delivered_err': 0.006, 'errors_delivered_per_100': 0.312, 'correct_withheld_per_100': 7.187}
+qwen7b_full_contract acc 0.925 {0: 0.925} gold_in_E 1.0
+    none {'coverage': 1.0, 'delivered_acc': 0.925, 'delivered_err': 0.075, 'errors_delivered_per_100': 7.5, 'correct_withheld_per_100': 0.0}
+    v0 {'coverage': 0.872, 'delivered_acc': 0.921, 'delivered_err': 0.079, 'errors_delivered_per_100': 6.875, 'correct_withheld_per_100': 12.188}
+    v1 {'coverage': 0.975, 'delivered_acc': 0.939, 'delivered_err': 0.061, 'errors_delivered_per_100': 5.938, 'correct_withheld_per_100': 0.938}
+    v1s {'coverage': 0.966, 'delivered_acc': 0.945, 'delivered_err': 0.055, 'errors_delivered_per_100': 5.312, 'correct_withheld_per_100': 1.25}
+    v2 {'coverage': 0.891, 'delivered_acc': 1.0, 'delivered_err': 0.0, 'errors_delivered_per_100': 0.0, 'correct_withheld_per_100': 3.438}

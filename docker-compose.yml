@@ -1,0 +1,26 @@
+services:
+  # Console mode:  ./run.sh <command>        (docker compose run --rm clustermind <command>)
+  clustermind: &cm
+    build: .
+    image: clustermind-app:latest
+    working_dir: /app
+    volumes:
+      - ./:/app                 # this folder (code, data, runs, results)
+      - ${CM_MODELS_HOST:-./models}:/app/models   # GGUF models (set CM_MODELS_HOST in .env to reuse a download)
+      - ../dataset:/dataset:ro  # Alibaba tarballs (pai_instance_table.tar.gz, pai_sensor_table.tar.gz)
+    environment:
+      - CM_MODELS_DIR=/app/models
+      - CM_THREADS=${CM_THREADS:-0}      # 0 = use all CPUs given to Docker
+      - CM_WEB_TOKEN=${CM_WEB_TOKEN:-}   # optional access token for the web GUI
+    stdin_open: true
+    tty: true
+
+  # Web GUI mode:  ./run.sh web   then open http://localhost:8000
+  # Published on 127.0.0.1 only, so the GUI is not reachable from other machines.
+  web:
+    <<: *cm
+    command: ["web", "--host", "0.0.0.0", "--port", "8000"]
+    ports:
+      - "127.0.0.1:${CM_WEB_PORT:-8000}:8000"
+    stdin_open: false
+    tty: false

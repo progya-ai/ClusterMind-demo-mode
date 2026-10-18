@@ -1,0 +1,16 @@
+\begin{tabular}{lcccccccc}
+\toprule
+ & \multicolumn{5}{c}{Controlled set ($n{=}560$, labels by construction)} & \multicolumn{3}{c}{Llama outputs ($n{=}100$, manual)} \\
+\cmidrule(lr){2-6}\cmidrule(lr){7-9}
+Verifier & P & R & F1 & FPR & AUROC & P & R & F1 \\
+\midrule
+v0 (prototype) & 0.68 & 0.41 & 0.51 & 0.35 & -- & 1.00 & 0.23 & 0.37 \\
+v1 & 0.89 & 0.89 & 0.89 & 0.20 & -- & 0.95 & 0.75 & 0.84 \\
+v1s & 1.00 & 0.89 & 0.94 & 0.00 & -- & 0.95 & 0.77 & 0.85 \\
+v2 & 1.00 & 0.89 & 0.94 & 0.00 & -- & 0.94 & 0.97 & 0.95 \\
+\midrule
+Self-check, Qwen2.5-1.5B & 0.64 & 1.00 & 0.78 & 1.00 & 0.68 & -- & -- & -- \\
+Self-check, Llama-3.2-1B & 0.64 & 1.00 & 0.78 & 1.00 & 0.56 & 0.75 & 1.00 & 0.86 \\
+LLM judge, Qwen2.5-7B & 0.77 & 0.99 & 0.86 & 0.54 & 0.92 & 0.92 & 0.88 & 0.90 \\
+\bottomrule
+\end{tabular}

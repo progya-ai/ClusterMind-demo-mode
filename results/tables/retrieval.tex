@@ -1,0 +1,12 @@
+\begin{tabular}{llrrrrr}
+\toprule
+Model & Evidence / prompt & Gold in $E$ & Acc. & v0 del.\ acc. & v2 cov. & v2 del.\ acc. \\
+\midrule
+Qwen2.5-1.5B & TF-IDF top-3 / original (as built) & 50 & 46.2 & 54.1 & 39.1 & 86.4 \\
+Qwen2.5-1.5B & TF-IDF top-3 / contract & 50 & 42.2 & 50.0 & 69.4 & 57.2 \\
+Qwen2.5-1.5B & full snapshot / original & 100 & 59.4 & 63.4 & 52.5 & 99.4 \\
+Qwen2.5-1.5B$^\dagger$ & full snapshot / contract & 100 & 55.9 & 62.9 & 54.5 & 99.4 \\
+Llama-3.2-1B & TF-IDF top-3 / contract & 50 & 36.6 & 40.5 & 29.7 & 63.2 \\
+Llama-3.2-1B & full snapshot / contract & 100 & 38.5 & 43.8 & 24.5 & 98.5 \\
+\bottomrule
+\end{tabular}

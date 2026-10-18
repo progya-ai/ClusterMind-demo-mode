@@ -1,0 +1,9 @@
+models/*.gguf
+data/raw/
+data/*.parquet
+runs_rerun/
+results_rerun/
+runs_test/
+__pycache__/
+results_gui/
+.env

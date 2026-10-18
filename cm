@@ -1,0 +1,142 @@
+#!/usr/bin/env bash
+# ClusterMind command runner. Inside Docker:  docker compose run --rm clustermind <command>
+# (or use the ./run.sh wrapper on your Mac:  ./run.sh <command>)
+set -euo pipefail
+cd /app 2>/dev/null || cd "$(dirname "$0")"
+DATASET=${DATASET:-/dataset}
+
+need_models() {
+  for f in "$@"; do
+    [ -f "${CM_MODELS_DIR:-models}/$f" ] || { echo "Missing model $f. Run: ./run.sh download-models"; exit 1; }
+  done
+}
+
+case "${1:-help}" in
+  help|-h|--help)
+    cat <<'TXT'
+ClusterMind - commands
+
+ Quick (no models, no raw data needed; minutes):
+   test                 unit tests for the checkers
+   tables               recompute every number/table from the shipped raw outputs (runs/)
+   demo-check           run the checkers on example answers (no model)
+
+ Data (needs ../dataset/*.tar.gz; ~3 min):
+   prepare-data         extract the 366-machine subset, rebuild the test data, verify hashes against the reference copies
+
+ Models (~7 GB download; 1.5B/1B need ~2 GB RAM, 7B needs ~6 GB RAM in Docker):
+   download-models [qwen1.5b llama1b qwen7b]
+
+ Interactive system:
+   demo [--model qwen1.5b|llama1b|qwen7b] [--snapshot S000..S039] [--confirm-delay SECONDS]
+   check --snapshot S003 --question Q --answer A [--json]    check one answer (no model)
+   check-batch FILE.csv|FILE.jsonl [--out results.csv]       check many answers (no model)
+
+ Web GUI (same operations in a browser, with a live console panel):
+   web [--host 127.0.0.1] [--port 8000]      on your Mac use:  ./run.sh web   then open http://localhost:8000
+
+ Full re-run of the experiments (hours on a laptop CPU; resumable):
+   generate MODEL RETRIEVAL STYLE SEEDS   e.g. generate llama1b full contract 0,1,2
+   judge JUDGE ITEMSET                    e.g. judge qwen7b gen:llama1b_full_contract:0
+   actions MODEL                          e.g. actions qwen1.5b
+   reproduce-all                          everything above in order, into runs_rerun/
+   tables-rerun                           analyse runs_rerun/ into results_rerun/
+
+ Shell:
+   shell                                  bash inside the container
+TXT
+    ;;
+  test)
+    python -m pytest -q tests ;;
+  tables)
+    if [ "${CM_RUNS_DIR:-runs}" != "runs" ]; then
+      export CM_RESULTS_DIR=${CM_RESULTS_DIR:-results_rerun}; export CM_TABLES_DIR=${CM_TABLES_DIR:-$CM_RESULTS_DIR/tables}
+      echo "Analysing $CM_RUNS_DIR -> $CM_RESULTS_DIR (shipped tables untouched)"
+    fi
+    export CM_RESULTS_DIR=${CM_RESULTS_DIR:-results}; mkdir -p "$CM_RESULTS_DIR"
+    python eval_guards.py > /dev/null
+    python eval_idle_drift.py > /dev/null
+    python analyze.py > "$CM_RESULTS_DIR/analyze_print.txt"
+    if [ -f data/instance.parquet ]; then python analyze_more.py ablate shared judge actions > "$CM_RESULTS_DIR/more_print.txt"
+    else echo "(no data/instance.parquet: keeping shipped 'shared evidence' result; run prepare-data to recompute it)"
+         python analyze_more.py ablate judge actions > "$CM_RESULTS_DIR/more_print.txt"; fi
+    python analyze_more.py annot > /dev/null
+    python make_tables.py
+    echo "Done. Tables: ${CM_TABLES_DIR:-results/tables}/*.tex, raw numbers: $CM_RESULTS_DIR/*.json"
+    python - <<'PY'
+import json
+import os
+r = json.load(open(os.path.join(os.environ.get("CM_RESULTS_DIR", "results"), "e2_endtoend.json")))
+print("\nHeadline results:")
+for tag in ["qwen1.5b_full_contract", "llama1b_full_contract", "qwen7b_full_contract"]:
+    g = r[tag]["gates"]
+    print(f"  {tag:26s} ungated acc {100*r[tag]['acc']:5.1f}%   v2: coverage {100*g['v2']['coverage']:5.1f}%  delivered acc {100*g['v2']['delivered_acc']:5.1f}%")
+PY
+    ;;
+  demo-check)
+    python -m cmapp demo-check ;;
+  check)
+    shift; python -m cmapp check "$@" ;;
+  check-batch)
+    shift; python -m cmapp check-batch "$@" ;;
+  web)
+    shift; python -m cmapp web "$@" ;;
+  prepare-data)
+    mkdir -p data/raw
+    if [ ! -s data/raw/instance_m012.csv.gz ]; then
+      [ -f "$DATASET/pai_instance_table.tar.gz" ] || { echo "Put the tarballs in ../dataset (mounted at $DATASET)"; exit 1; }
+      echo "extracting instance subset (1-2 min)..."
+      tar xzOf "$DATASET/pai_instance_table.tar.gz" | awk -F, 'substr($9,1,1) ~ /^[012]$/' | gzip -4 > data/raw/instance_m012.csv.gz
+    fi
+    if [ ! -s data/raw/sensor_m012.csv.gz ]; then
+      echo "extracting sensor subset (~1 min)..."
+      tar xzOf "$DATASET/pai_sensor_table.tar.gz" | awk -F, 'substr($5,1,1) ~ /^[012]$/' | gzip -4 > data/raw/sensor_m012.csv.gz
+    fi
+    python prepare_subset.py data/raw/instance_m012.csv.gz data/raw/sensor_m012.csv.gz
+    python build_bench.py > /dev/null
+    python build_corrupt.py > /dev/null
+    echo "rebuilding action scenarios (~3-10 min)..."
+    python build_actions.py > /dev/null
+    python build_actions_idle.py > /dev/null
+    echo "Checking regenerated files against the reference copies:"
+    sha256sum -c data/reference/SHA256SUMS || echo "WARNING: some files differ from the reference copies (originals kept in data/reference/)."
+    ;;
+  download-models)
+    shift; python download_models.py "$@" ;;
+  demo)
+    shift; need_models qwen2.5-1.5b-instruct-q4_k_m.gguf; python cm_demo.py "$@" ;;
+  generate)
+    shift; python run_generate.py "$@" ;;
+  judge)
+    shift; python run_judge.py "$@" ;;
+  actions)
+    shift; python run_actions_llm.py "$@" ;;
+  reproduce-all)
+    need_models qwen2.5-1.5b-instruct-q4_k_m.gguf Llama-3.2-1B-Instruct-Q8_0.gguf Qwen2.5-7B-Instruct-Q4_K_M.gguf
+    echo "Re-running all model experiments into runs_rerun/ (the shipped runs/ is left untouched)."
+    mkdir -p runs_rerun
+    export CM_RUNS_DIR=runs_rerun
+    python run_generate.py qwen1.5b full contract 0,1,2
+    python run_generate.py llama1b full contract 0,1,2
+    python run_generate.py qwen1.5b tfidf contract 0
+    python run_generate.py llama1b tfidf contract 0
+    python run_generate.py qwen1.5b tfidf original 0
+    python run_generate.py qwen1.5b full original 0
+    python run_generate.py qwen7b full contract 0
+    python run_actions_llm.py qwen1.5b
+    python run_actions_llm.py llama1b
+    python run_judge.py qwen1.5b corrupt
+    python run_judge.py qwen1.5b gen:qwen1.5b_full_contract:0
+    python run_judge.py llama1b corrupt
+    python run_judge.py llama1b gen:llama1b_full_contract:0
+    python run_judge.py qwen7b corrupt
+    python run_judge.py qwen7b gen:llama1b_full_contract:0
+    echo "Done. To analyse the re-run: ./run.sh tables-rerun"
+    ;;
+  tables-rerun)
+    CM_RUNS_DIR=runs_rerun exec bash "$0" tables ;;
+  shell)
+    exec bash ;;
+  *)
+    echo "unknown command: $1 (try: help)"; exit 1 ;;
+esac

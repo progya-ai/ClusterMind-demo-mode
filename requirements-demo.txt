@@ -1,0 +1,7 @@
+# Lightweight dependencies for the hosted public demo (no AI model, no trace parquet).
+# The full app uses requirements.txt.
+numpy==2.4.4
+scikit-learn==1.8.0
+scipy==1.17.1
+flask==3.1.3
+waitress==3.0.2
